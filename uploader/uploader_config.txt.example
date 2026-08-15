@@ -1,0 +1,13 @@
+# Configurazione uploader TBR - NON committare mai questo file
+# Copia questo file in uploader_config.txt e inserisci il tuo token.
+#
+# Genera il token qui:  https://github.com/settings/tokens
+#   - "Tokens (classic)" oppure "Fine-grained"
+#   - Permessi richiesti (classic):  repo  (e workflow se serve)
+#   - Scadenza: a tua scelta, rinnovalo quando scade
+#
+# Formato (niente spazi attorno al simbolo =):
+
+owner=HooksLegacyTeam
+repo=TBR-Timeline-Breaker-Rewind
+token=inserisci_il_tuo_token_qui

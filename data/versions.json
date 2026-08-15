@@ -1,0 +1,57 @@
+{
+    "repo":  "HooksLegacyTeam/TBR-Timeline-Breaker-Rewind",
+    "editor":  {
+                   "version":  "1.0.0",
+                   "date":  "2026-08-08",
+                   "asset":  "StoryForge_Editor_v1.0.0_test_2026-08-08.zip",
+                   "sizeMB":  13.1,
+                   "platform":  "windows",
+                   "tagline":  {
+                                   "it":  "Editor desktop per creare e tradurre le storie del gioco.",
+                                   "en":  "Desktop editor to create and translate the game stories."
+                               },
+                   "features":  {
+                                    "it":  [
+                                               "Editor di post, commenti e transizioni con grafo di storie",
+                                               "Storyboard interattivo: trascina i nodi, collega e rilega le frecce",
+                                               "Multilingua: it, en, es, de, fr con sincronizzazione automatica",
+                                               "Workbench LLM: bozze assistite da AI con libreria di prompt",
+                                               "Esporta pacchetti .sfpkg pronti da importare nell\u0027app"
+                                           ],
+                                    "en":  [
+                                               "Post, comments and transitions editor with a story graph",
+                                               "Interactive storyboard: drag nodes, connect and relink arrows",
+                                               "Multilingual: it, en, es, de, fr with automatic sync",
+                                               "LLM Workbench: AI-assisted drafts with a prompt library",
+                                               "Exports .sfpkg packs ready to import into the app"
+                                           ]
+                                }
+               },
+    "app":  {
+                "version":  "1.15.0",
+                "date":  "2026-08-14",
+                "asset":  "TimelineBreaker-Rewind_v1.15.0.apk",
+                "sizeMB":  25.6,
+                "platform":  "android",
+                "tagline":  {
+                                "it":  "Un gioco di viaggi nel tempo nascosto in un feed social.",
+                                "en":  "A time-travel game hidden inside a social feed."
+                            },
+                "features":  {
+                                 "it":  [
+                                            "Scorri il feed: ogni gesto rivela il prossimo evento",
+                                            "Commenta per cambiare il destino della storia",
+                                            "Rewind: torna indietro nel tempo e riprova le tue scelte",
+                                            "Importa storie .sfpkg create con Story Forge",
+                                            "Disponibile in italiano e inglese"
+                                        ],
+                                 "en":  [
+                                            "Scroll the feed: every gesture reveals the next event",
+                                            "Comment to change the story\u0027s fate",
+                                            "Rewind: go back in time and retry your choices",
+                                            "Import .sfpkg stories created with Story Forge",
+                                            "Available in Italian and English"
+                                        ]
+                             }
+            }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline Breaker Rewind · Gioco di viaggi nel tempo</title>
+  <meta name="description" content="Timeline Breaker Rewind: un gioco di viaggi nel tempo nascosto in un feed social. Scarica l'app Android e l'editor Story Forge per Windows.">
+  <meta property="og:title" content="Timeline Breaker Rewind">
+  <meta property="og:description" content="Un gioco di viaggi nel tempo nascosto in un feed social. Scarica l'app e l'editor.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">⌛</span>
+        <span>TBR</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html#app" data-i18n="nav.app">App</a></li>
+          <li><a href="index.html#editor" data-i18n="nav.editor">Editor</a></li>
+          <li><a href="index.html#how" data-i18n="nav.how">Come funziona</a></li>
+          <li><a href="guide-app.html" data-i18n="nav.guideApp">Guida App</a></li>
+          <li><a href="guide-editor.html" data-i18n="nav.guideEditor">Guida Editor</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="it">IT</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container">
+        <span class="hero-badge"><span class="dot"></span><span data-i18n="hero.badge">Ultima versione disponibile</span></span>
+        <h1>
+          <span data-i18n="hero.title.line1">Il tempo si è rotto.</span><br>
+          <span class="grad" data-i18n="hero.title.line2">Riscrivi la storia.</span>
+        </h1>
+        <p class="hero-tagline" data-i18n="hero.tagline">Timeline Breaker Rewind è un gioco di viaggi nel tempo nascosto in un feed social: scorri, commenta e cambia il destino.</p>
+        <div class="hero-cta">
+          <a class="btn btn-app" href="#app" data-i18n="hero.cta.app">Scarica l'App</a>
+          <a class="btn btn-editor" href="#editor" data-i18n="hero.cta.editor">Scarica l'Editor</a>
+        </div>
+        <p class="hero-meta" data-i18n="hero.meta">App Android · Editor Windows · Solo download ufficiali</p>
+      </div>
+    </section>
+
+    <!-- ============ APP ============ -->
+    <section id="app" class="section">
+      <div class="container">
+        <div class="panel">
+          <div class="panel-media">
+            <div class="phone-wrap">
+              <div class="phone">
+                <div class="phone-screen">
+                  <img src="assets/img/preview-app-1.webp" alt="Timeline Breaker Rewind - feed">
+                  <img src="assets/img/preview-app-2.webp" alt="Timeline Breaker Rewind - evento">
+                  <img src="assets/img/preview-app-3.webp" alt="Timeline Breaker Rewind - storia">
+                </div>
+                <div class="phone-dots">
+                  <button type="button" aria-label="Anteprima 1"></button>
+                  <button type="button" aria-label="Anteprima 2"></button>
+                  <button type="button" aria-label="Anteprima 3"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-copy">
+            <span class="eyebrow eyebrow-app" data-i18n="app.eyebrow">Il gioco</span>
+            <h3 data-i18n="app.title">Timeline Breaker Rewind</h3>
+            <p data-i18n="app.sub">Un feed social che nasconde un gioco: ogni post è un evento, ogni commento cambia il futuro.</p>
+            <h4 style="font-family:var(--font-display);margin-bottom:14px" data-i18n="app.featuresTitle">Cosa puoi fare</h4>
+            <ul class="feature-list" id="appFeatures">
+              <li><span class="check check-app">✓</span>Scorri il feed: ogni gesto rivela il prossimo evento</li>
+              <li><span class="check check-app">✓</span>Commenta per cambiare il destino della storia</li>
+              <li><span class="check check-app">✓</span>Rewind: torna indietro nel tempo e riprova le tue scelte</li>
+              <li><span class="check check-app">✓</span>Importa storie .sfpkg create con Story Forge</li>
+              <li><span class="check check-app">✓</span>Disponibile in italiano e inglese</li>
+            </ul>
+            <div class="download-card">
+              <div class="dl-head">
+                <span class="dl-title" data-i18n="app.downloadTitle">Ultima versione</span>
+                <span class="version-badge"><span class="tag" data-i18n="app.verLabel">Versione</span> <span id="appVersion">1.15.0</span></span>
+              </div>
+              <div class="dl-meta">
+                <span>📅 <span data-i18n="app.dateLabel">Data</span>: <span id="appDate">14/08/2026</span></span>
+                <span>💾 <span data-i18n="app.sizeLabel">Peso</span>: <span id="appSize">25,6 MB</span></span>
+                <span>📱 <span data-i18n="app.platformLabel">Piattaforma</span>: <span id="appPlatform">Android</span></span>
+              </div>
+              <a class="btn btn-app dl-btn" id="appDownload" href="https://github.com/HooksLegacyTeam/TBR-Timeline-Breaker-Rewind/releases/latest" download>
+                ⤓ <span data-i18n="app.dl">Scarica l'APK</span>
+              </a>
+              <p class="dl-note" data-i18n="app.dlNote">Installabile su Android 7.0 o successivo. Puoi ricevere storie .sfpkg dai tuoi amici.</p>
+            </div>
+            <div class="panel-actions" style="margin-top:16px">
+              <a class="btn btn-ghost" href="guide-app.html" data-i18n="app.guideLink">Guida all'installazione</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDITOR ============ -->
+    <section id="editor" class="section section-alt">
+      <div class="container">
+        <div class="panel reversed">
+          <div class="panel-media">
+            <div class="phone-wrap">
+              <div class="download-card" style="margin-top:0;width:100%;max-width:460px">
+                <div class="dl-head">
+                  <span class="dl-title" data-i18n="editor.downloadTitle">Ultima versione</span>
+                  <span class="version-badge"><span class="tag" data-i18n="editor.verLabel">Versione</span> <span id="editorVersion">1.0.0</span></span>
+                </div>
+                <div class="dl-meta">
+                  <span>📅 <span data-i18n="editor.dateLabel">Data</span>: <span id="editorDate">08/08/2026</span></span>
+                  <span>💾 <span data-i18n="editor.sizeLabel">Peso</span>: <span id="editorSize">13,1 MB</span></span>
+                  <span>🖥️ <span data-i18n="editor.platformLabel">Piattaforma</span>: <span id="editorPlatform">Windows</span></span>
+                </div>
+                <a class="btn btn-editor dl-btn" id="editorDownload" href="https://github.com/HooksLegacyTeam/TBR-Timeline-Breaker-Rewind/releases/latest" download>
+                  ⤓ <span data-i18n="editor.dl">Scarica per Windows</span>
+                </a>
+                <p class="dl-note" data-i18n="editor.dlNote">ZIP autoconsistente: estrai ed esegui story_forge.exe, nessuna installazione.</p>
+                <div class="panel-actions" style="margin-top:14px">
+                  <a class="btn btn-ghost" style="width:100%;justify-content:center" href="guide-editor.html" data-i18n="editor.guideLink">Guida all'avvio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-copy">
+            <span class="eyebrow eyebrow-editor" data-i18n="editor.eyebrow">Lo strumento</span>
+            <h3 data-i18n="editor.title">Story Forge</h3>
+            <p data-i18n="editor.sub">L'editor desktop per creare, tradurre ed esportare le storie di Timeline Breaker Rewind.</p>
+            <ul class="feature-list" id="editorFeatures">
+              <li><span class="check check-editor">✓</span>Editor di post, commenti e transizioni con grafo di storie</li>
+              <li><span class="check check-editor">✓</span>Storyboard interattivo: trascina i nodi, collega e rilega le frecce</li>
+              <li><span class="check check-editor">✓</span>Multilingua: it, en, es, de, fr con sincronizzazione automatica</li>
+              <li><span class="check check-editor">✓</span>Workbench LLM: bozze assistite da AI con libreria di prompt</li>
+              <li><span class="check check-editor">✓</span>Esporta pacchetti .sfpkg pronti da importare nell'app</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COME FUNZIONA ============ -->
+    <section id="how" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow eyebrow-app" data-i18n="how.eyebrow">Come funziona</span>
+          <h2 data-i18n="how.title">Scorri. Commenta. Cambia il destino.</h2>
+          <p data-i18n="how.sub">Il loop di gioco è lo stesso dei social che già usi ogni giorno.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">01</div>
+            <h4 data-i18n="how.s1.title">Scorri il feed</h4>
+            <p data-i18n="how.s1.text">Ogni gesto rivela l'evento successivo nella timeline.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">02</div>
+            <h4 data-i18n="how.s2.title">Commenta l'evento</h4>
+            <p data-i18n="how.s2.text">Scegli una reazione: il tuo commento non è decorativo.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">03</div>
+            <h4 data-i18n="how.s3.title">L'effetto farfalla</h4>
+            <p data-i18n="how.s3.text">Piccole scelte generano conseguenze inaspettate.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">04</div>
+            <h4 data-i18n="how.s4.title">Riavvolgi e riprova</h4>
+            <p data-i18n="how.s4.text">Riavvolgi la timeline e affronta di nuovo le tue decisioni.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark">⌛</span>
+            <span>Timeline Breaker Rewind</span>
+          </a>
+          <p data-i18n="footer.desc">Un gioco di viaggi nel tempo nascosto in un feed social, e l'editor per creare nuove storie.</p>
+        </div>
+        <div class="footer-links">
+          <h5 data-i18n="footer.downloadsTitle">Download</h5>
+          <ul>
+            <li><a href="index.html#app" data-i18n="nav.app">App</a></li>
+            <li><a href="index.html#editor" data-i18n="nav.editor">Editor</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5 data-i18n="footer.linksTitle">Link</h5>
+          <ul>
+            <li><a href="guide-app.html" data-i18n="nav.guideApp">Guida App</a></li>
+            <li><a href="guide-editor.html" data-i18n="nav.guideEditor">Guida Editor</a></li>
+            <li><a href="https://github.com/HooksLegacyTeam/TBR-Timeline-Breaker-Rewind" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">© 2026 Hooks Legacy Team · Timeline Breaker Rewind e Story Forge</span>
+        <span>v1.0</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

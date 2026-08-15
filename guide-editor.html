@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guida all'avvio · Story Forge</title>
+  <meta name="description" content="Come avviare Story Forge su Windows: scarica lo ZIP, estrai la cartella e apri story_forge.exe.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">⌛</span>
+        <span>TBR</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html#app" data-i18n="nav.app">App</a></li>
+          <li><a href="index.html#editor" data-i18n="nav.editor">Editor</a></li>
+          <li><a href="guide-app.html" data-i18n="nav.guideApp">Guida App</a></li>
+          <li><a href="guide-editor.html" data-i18n="nav.guideEditor">Guida Editor</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="it">IT</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="guide">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Timeline Breaker Rewind</a>
+        <span>/</span>
+        <span data-i18n="nav.guideEditor">Guida Editor</span>
+      </div>
+
+      <h1 data-i18n="guideEditor.title">Avvia Story Forge</h1>
+      <p class="guide-sub" data-i18n="guideEditor.sub">Come aprire l'editor su Windows e creare il tuo primo pacchetto.</p>
+
+      <h2 data-i18n="guideEditor.s1.title">1 · Scarica e estrai</h2>
+      <p data-i18n="guideEditor.s1.text">Scarica lo ZIP dalla sezione Editor della home page, poi estrai l'intera cartella. Non avviare mai il programma dentro lo ZIP.</p>
+
+      <h2 data-i18n="guideEditor.s2.title">2 · Avvia story_forge.exe</h2>
+      <p data-i18n="guideEditor.s2.text">Entra nella cartella estratta e fai doppio click su story_forge.exe. Non spostare i file singolarmente: l'eseguibile, le DLL e la cartella data devono restare insieme.</p>
+
+      <h2 data-i18n="guideEditor.s3.title">3 · SmartScreen: esegui comunque</h2>
+      <p data-i18n="guideEditor.s3.text">Windows potrebbe mostrare «Editore sconosciuto». Clicca Ulteriori informazioni e poi Esegui comunque. È normale: l'eseguibile non è firmato, è una build di test.</p>
+
+      <h2 data-i18n="guideEditor.s4.title">4 · Crea ed esporta una storia</h2>
+      <p data-i18n="guideEditor.s4.text">Usa l'editor per scrivere post, commenti e transizioni. Con Export crei un pacchetto .sfpkg da inviare a chi gioca sul telefono.</p>
+
+      <h2 data-i18n="guideEditor.req.title">Requisiti</h2>
+      <ul>
+        <li data-i18n="guideEditor.req.1">Windows 10 o 11 a 64 bit</li>
+        <li data-i18n="guideEditor.req.2">Circa 50 MB di spazio libero</li>
+        <li data-i18n="guideEditor.req.3">Nessuna installazione: Python, Dart e i runtime sono già inclusi nella cartella</li>
+      </ul>
+
+      <div class="tip">
+        <strong data-i18n="guideEditor.s2.title">2 · Avvia story_forge.exe</strong> — <span data-i18n="guideEditor.tip.1">La lingua dell'interfaccia segue il sistema: se è in inglese, i menu si vedranno in inglese.</span>
+      </div>
+
+      <div class="tip tip-warn">
+        <strong>⚠</strong> <span data-i18n="guideEditor.warn.1">Le modifiche non salvate vengono perse alla chiusura: l'editor chiede conferma se ci sono file non salvati.</span>
+      </div>
+
+      <p><a href="index.html" data-i18n="guideEditor.back">← Torna alla home</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">© 2026 Hooks Legacy Team · Timeline Breaker Rewind e Story Forge</span>
+        <span>v1.0</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

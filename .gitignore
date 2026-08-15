@@ -1,0 +1,10 @@
+# Token di accesso personale: mai committare
+/uploader/uploader_config.txt
+
+# Area di staging temporanea degli asset (APK/ZIP copiati per la release)
+/uploader/staging/
+
+# File temporanei e di sistema
+*.tmp
+Thumbs.db
+.DS_Store
