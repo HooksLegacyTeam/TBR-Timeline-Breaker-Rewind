@@ -38,7 +38,7 @@ $uploadBase = $rel.upload_url -replace '\{\?name,label\}', ''
 foreach ($asset in @($apkFile, $zipFile)) {
     $name = [System.IO.Path]::GetFileName($asset)
     Write-Host "Upload $name ..."
-    $out = & curl.exe -sS -X POST -H "Authorization: token $Token" -H "Content-Type: application/octet-stream" --data-binary "@$asset" "$uploadBase?name=$name"
+    $out = & curl.exe -sS -X POST -H "Authorization: token $Token" -H "Content-Type: application/octet-stream" --data-binary "@$asset" "${uploadBase}?name=$name"
     $up = $out | ConvertFrom-Json
     if (-not $up.id) { throw "Upload fallito per $name : $out" }
     Write-Host "OK  $name"
