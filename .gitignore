@@ -8,3 +8,6 @@
 *.tmp
 Thumbs.db
 .DS_Store
+
+# README locale: non pubblicato sul repo
+/README.md

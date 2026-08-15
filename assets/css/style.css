@@ -13,6 +13,9 @@
   --gradient-app: linear-gradient(135deg, #22d3ee, #8b5cf6);
   --gradient-editor: linear-gradient(135deg, #fbbf24, #fb923c);
   --gradient-text: linear-gradient(120deg, #22d3ee, #8b5cf6 55%, #f472b6);
+  --brand-seed: #5b3df5;
+  --brand-accent: #ff3df5;
+  --brand-gradient: linear-gradient(120deg, #5b3df5, #ff3df5);
   --radius: 16px;
   --radius-sm: 10px;
   --shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
@@ -172,43 +175,66 @@ a:hover {
   text-align: center;
 }
 
-.hero-badge {
+.hero-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.hero-brand-chip {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  padding: 6px 18px;
+  border: 1px solid var(--brand-accent);
   border-radius: 999px;
-  padding: 6px 16px;
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-bottom: 28px;
-}
-
-.hero-badge .dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--cyan);
-  box-shadow: 0 0 10px var(--cyan);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.55; transform: scale(0.85); }
-}
-
-.hero h1 {
+  background: rgba(255, 61, 245, 0.14);
+  color: var(--brand-accent);
   font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(2.2rem, 6vw, 4.2rem);
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 0.9rem;
+  letter-spacing: 1.4px;
+  margin-bottom: 22px;
 }
 
-.hero h1 .grad {
+.hero-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2.8rem, 8vw, 5.5rem);
+  line-height: 1.02;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.hero-title span {
+  display: block;
+}
+
+.hero-title-accent {
+  margin-top: 16px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.1rem, 2.6vw, 1.5rem);
+  letter-spacing: 0.55em;
+  text-transform: uppercase;
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 0.55em;
+}
+
+.hero-hook {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.6vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.hero-hook .grad {
   background: var(--gradient-text);
   -webkit-background-clip: text;
   background-clip: text;
@@ -220,9 +246,7 @@ a:hover {
   color: var(--muted);
   max-width: 640px;
   margin: 0 auto 34px;
-}
-
-.hero-cta {
+}.hero-cta {
   display: flex;
   gap: 16px;
   justify-content: center;
