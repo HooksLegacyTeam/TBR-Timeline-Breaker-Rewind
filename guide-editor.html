@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida all'avvio · Story Forge</title>
-  <meta name="description" content="Come avviare Story Forge su Windows: scarica lo ZIP, estrai la cartella e apri story_forge.exe.">
+  <title>Manuale Wiki · Story Forge</title>
+  <meta name="description" content="Manuale completo di Story Forge: l'editor desktop per creare storie interactive per Timeline Breaker Rewind.">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/wiki.css">
 </head>
 <body>
 
@@ -42,39 +43,903 @@
         <a href="index.html">Timeline Breaker Rewind</a>
         <span>/</span>
         <span data-i18n="nav.guideEditor">Guida Editor</span>
+        <span>/</span>
+        <span data-i18n="wiki.breadcrumb.wiki">Manuale Completo</span>
       </div>
 
-      <h1 data-i18n="guideEditor.title">Avvia Story Forge</h1>
-      <p class="guide-sub" data-i18n="guideEditor.sub">Come aprire l'editor su Windows e creare il tuo primo pacchetto.</p>
+      <h1 data-i18n="wiki.title">Manuale Story Forge</h1>
+      <p class="guide-sub" data-i18n="wiki.sub">Guida completa all'editor desktop per creare, tradurre ed esportare storie interactive per Timeline Breaker Rewind.</p>
 
-      <h2 data-i18n="guideEditor.s1.title">1 · Scarica e estrai</h2>
-      <p data-i18n="guideEditor.s1.text">Scarica lo ZIP dalla sezione Editor della home page, poi estrai l'intera cartella. Non avviare mai il programma dentro lo ZIP.</p>
+      <div class="wiki-layout">
 
-      <h2 data-i18n="guideEditor.s2.title">2 · Avvia story_forge.exe</h2>
-      <p data-i18n="guideEditor.s2.text">Entra nella cartella estratta e fai doppio click su story_forge.exe. Non spostare i file singolarmente: l'eseguibile, le DLL e la cartella data devono restare insieme.</p>
+        <!-- ======== TOC ======== -->
+        <aside class="wiki-toc" id="wikiToc">
+          <h4 data-i18n="wiki.toc.title">Indice</h4>
+          <nav>
+            <a href="#introduzione" data-i18n="wiki.toc.intro">Introduzione</a>
+            <a href="#dashboard" data-i18n="wiki.toc.dashboard">Dashboard</a>
+            <a href="#editor-layout" data-i18n="wiki.toc.layout">Layout dell'editor</a>
+            <a href="#post-list" data-i18n="wiki.toc.postList">Lista Post</a>
+            <a href="#post-editor" data-i18n="wiki.toc.postEditor">Editor Post</a>
+            <a class="sub" href="#post-image" data-i18n="wiki.toc.image">Immagine e Framing</a>
+            <a class="sub" href="#post-caption" data-i18n="wiki.toc.caption">Didascalia</a>
+            <a class="sub" href="#post-hashtags" data-i18n="wiki.toc.hashtags">Hashtag</a>
+            <a class="sub" href="#post-likes" data-i18n="wiki.toc.likes">Views e Mi Piace</a>
+            <a class="sub" href="#post-transitions" data-i18n="wiki.toc.transitions">Transizioni</a>
+            <a class="sub" href="#post-comments" data-i18n="wiki.toc.comments">Commenti</a>
+            <a class="sub" href="#post-zones" data-i18n="wiki.toc.zones">Search Zone e Trappole</a>
+            <a href="#photos" data-i18n="wiki.toc.photos">Pannello Fotografie</a>
+            <a href="#storyboard" data-i18n="wiki.toc.storyboard">Storyboard</a>
+            <a href="#simulator" data-i18n="wiki.toc.simulator">Simulatore</a>
+            <a href="#validator" data-i18n="wiki.toc.validator">Validatore</a>
+            <a href="#llm" data-i18n="wiki.toc.llm">LLM Workbench</a>
+            <a href="#localization" data-i18n="wiki.toc.localization">Localizzazione</a>
+            <a href="#profile" data-i18n="wiki.toc.profile">Profilo</a>
+            <a href="#export" data-i18n="wiki.toc.export">Import / Esporta</a>
+            <a href="#faq" data-i18n="wiki.toc.faq">FAQ</a>
+          </nav>
+        </aside>
 
-      <h2 data-i18n="guideEditor.s3.title">3 · SmartScreen: esegui comunque</h2>
-      <p data-i18n="guideEditor.s3.text">Windows potrebbe mostrare «Editore sconosciuto». Clicca Ulteriori informazioni e poi Esegui comunque. È normale: l'eseguibile non è firmato, è una build di test.</p>
+        <!-- ======== BODY ======== -->
+        <div class="wiki-body">
 
-      <h2 data-i18n="guideEditor.s4.title">4 · Crea ed esporta una storia</h2>
-      <p data-i18n="guideEditor.s4.text">Usa l'editor per scrivere post, commenti e transizioni. Con Export crei un pacchetto .sfpkg da inviare a chi gioca sul telefono.</p>
+          <!-- ===== INTRODUZIONE ===== -->
+          <section id="introduzione">
+            <h2 data-i18n="wiki.intro.title">Introduzione</h2>
+            <p data-i18n="wiki.intro.p1">Story Forge è un editor desktop (Windows) per creare storie interattive per <strong>Timeline Breaker Rewind</strong>. Il gioco appare come un feed social, ma ogni post è un evento narrativo, ogni commento una possibile scelta, e ogni "like" un aggancio a una trama nascosta.</p>
+            <p data-i18n="wiki.intro.p2">Con Story Forge puoi progettare l'intera avventura: post, commenti, transizioni, trappole, aree di ricerca nascoste e profili social. Una volta completata, esporti un pacchetto <code>.sfpkg</code> che其他玩家 possono importare nel loro telefono per giocare.</p>
 
-      <h2 data-i18n="guideEditor.req.title">Requisiti</h2>
-      <ul>
-        <li data-i18n="guideEditor.req.1">Windows 10 o 11 a 64 bit</li>
-        <li data-i18n="guideEditor.req.2">Circa 50 MB di spazio libero</li>
-        <li data-i18n="guideEditor.req.3">Nessuna installazione: Python, Dart e i runtime sono già inclusi nella cartella</li>
-      </ul>
+            <h3 data-i18n="wiki.intro.what.title">Cosa puoi creare</h3>
+            <div class="wiki-feature-grid">
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.intro.f1.title">Post narrativi</h4>
+                <p data-i18n="wiki.intro.f1.desc">Immagini con didascalie, hashtag e commenti che formano una storia interattiva.</p>
+              </div>
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.intro.f2.title">Alberi di scelte</h4>
+                <p data-i18n="wiki.intro.f2.desc">Transizioni, trappole e keyword che guidano il giocatore attraverso rami narrativi.</p>
+              </div>
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.intro.f3.title">Profili social</h4>
+                <p data-i18n="wiki.intro.f3.desc">Avatar, handle, bio e followers per dare identità ai personaggi.</p>
+              </div>
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.intro.f4.title">Multilingua</h4>
+                <p data-i18n="wiki.intro.f4.desc">Traduzioni incrociate con supporto LLM e Machine Translation per IT, EN, ES, DE, FR.</p>
+              </div>
+            </div>
 
-      <div class="tip">
-        <strong data-i18n="guideEditor.s2.title">2 · Avvia story_forge.exe</strong> — <span data-i18n="guideEditor.tip.1">La lingua dell'interfaccia segue il sistema: se è in inglese, i menu si vedranno in inglese.</span>
-      </div>
+            <h3 data-i18n="wiki.intro.reqs.title">Requisiti</h3>
+            <ul>
+              <li data-i18n="wiki.intro.req1">Windows 10 o 11 a 64 bit</li>
+              <li data-i18n="wiki.intro.req2">Circa 200 MB di spazio libero</li>
+              <li data-i18n="wiki.intro.req3">Nessuna installazione: tutto è incluso nella cartella estratta</li>
+              <li data-i18n="wiki.intro.req4">ffmpeg è richiesto solo per la compressione immagini (opzionale)</li>
+            </ul>
+          </section>
 
-      <div class="tip tip-warn">
-        <strong>⚠</strong> <span data-i18n="guideEditor.warn.1">Le modifiche non salvate vengono perse alla chiusura: l'editor chiede conferma se ci sono file non salvati.</span>
-      </div>
+          <!-- ===== DASHBOARD ===== -->
+          <section id="dashboard">
+            <h2 data-i18n="wiki.dash.title">Dashboard e Gestione Progetti</h2>
+            <p data-i18n="wiki.dash.p1">Al primo avvio si apre la <strong>Dashboard</strong>: lo schermata iniziale da cui gestisci i tuoi progetti.</p>
 
-      <p><a href="index.html" data-i18n="guideEditor.back">← Torna alla home</a></p>
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-home.png" alt="Dashboard Story Forge" loading="lazy">
+              <figcaption data-i18n="wiki.dash.fig">La Dashboard con la lista dei progetti recenti.</figcaption>
+            </figure>
+
+            <h3 data-i18n="wiki.dash.new.title">Crea un nuovo progetto</h3>
+            <p data-i18n="wiki.dash.new.text">Clicca <strong>Nuovo progetto</strong> e scegli una cartella dove salvare. Story Forge inizializzerà un file <code>story.json</code> vuoto con un profilo social di default pronto da personalizzare.</p>
+
+            <h3 data-i18n="wiki.dash.recent.title">Progetti recenti</h3>
+            <p data-i18n="wiki.dash.recent.text">I tuoi ultimi 5 progetti aprono vengono mostrati nella lista <strong>Recenti</strong>. Cliccane uno per riaprirlo istantaneamente senza dover navigare le cartelle.</p>
+
+            <h3 data-i18n="wiki.dash.import.title">Importa un pacchetto</h3>
+            <p data-i18n="wiki.dash.import.text">Se hai ricevuto un file <code>.sfpkg</code> da un altro utente, clicca <strong>Importa</strong> e seleziona il file. Story Forge estrarrà automaticamente il contenuto (story.json + immagini) in una nuova cartella e lo aprirà nell'editor.</p>
+
+            <h3 data-i18n="wiki.dash.open.title">Apri un progetto esistente</h3>
+            <p data-i18n="wiki.dash.open.text">Clicca <strong>Apri cartella</strong> per navigare e selezionare una cartella contenente un <code>story.json</code> già esistente.</p>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.dash.tip.title">Suggerimento</strong> — <span data-i18n="wiki.dash.tip.text">Puoi anche trascinare direttamente una cartella sulla finestra di Story Forge per aprirla.</span>
+            </div>
+          </section>
+
+          <!-- ===== LAYOUT ===== -->
+          <section id="editor-layout">
+            <h2 data-i18n="wiki.layout.title">Layout dell'Editor</h2>
+            <p data-i18n="wiki.layout.p1">L'editor si divide in tre zone principali:</p>
+
+            <div class="wiki-feature-grid">
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.layout.left.title">⬅ Pannello sinistro</h4>
+                <p data-i18n="wiki.layout.left.desc">Lista dei post: ordina, elimina, duplica.</p>
+              </div>
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.layout.center.title">↕ Pannello centrale</h4>
+                <p data-i18n="wiki.layout.center.desc">Form di modifica del post selezionato.</p>
+              </div>
+              <div class="wiki-feature-card">
+                <h4 data-i18n="wiki.layout.right.title">➡ Pannello destro</h4>
+                <p data-i18n="wiki.layout.right.desc">Tab con Storyboard, Foto, Simulatore, Validatore, LLM e Localizzazione.</p>
+              </div>
+            </div>
+
+            <p data-i18n="wiki.layout.p2">In alto trovi il <strong>selettore account</strong> (per passare tra diversi profili social), il <strong>selettore lingua</strong>, il pulsante <strong>Profilo</strong>, il pulsante <strong>LLM</strong> e il pulsante <strong>Salva</strong>.</p>
+
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-editor.png" alt="Editor Story Forge" loading="lazy">
+              <figcaption data-i18n="wiki.layout.fig">Layout completo dell'editor con i tre pannelli.</figcaption>
+            </figure>
+          </section>
+
+          <!-- ===== POST LIST ===== -->
+          <section id="post-list">
+            <h2 data-i18n="wiki.postList.title">Lista Post (Pannello Sinistro)</h2>
+            <p data-i18n="wiki.postList.p1">Il pannello sinistro mostra tutti i post del progetto corrente nell'ordine in cui appariranno nel feed del gioco.</p>
+
+            <h3 data-i18n="wiki.postList.card.title">Post Card</h3>
+            <p data-i18n="wiki.postList.card.p1">Ogni post nella lista appare come una <strong>post card</strong>: un riquadro compatto che mostra un'anteprima del contenuto. Ogni card contiene:</p>
+            <ul>
+              <li data-i18n="wiki.postList.card.img"><strong>Fotografia</strong> — miniatura dell'immagine del post</li>
+              <li data-i18n="wiki.postList.card.name"><strong>Nome</strong> — identificativo del post</li>
+              <li data-i18n="wiki.postList.card.views"><strong>Visualizzazioni</strong> — numero di views assegnato</li>
+              <li data-i18n="wiki.postList.card.hashtags"><strong>Hashtag</strong> — gli hashtag associati al post</li>
+            </ul>
+
+            <h3 data-i18n="wiki.postList.actions.title">Azioni disponibili</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="wiki.table.action">Azione</th>
+                  <th data-i18n="wiki.table.how">Come</th>
+                  <th data-i18n="wiki.table.desc">Descrizione</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-i18n="wiki.postList.act.select">Seleziona</td>
+                  <td data-i18n="wiki.postList.act.select.how">Click sinistro</td>
+                  <td data-i18n="wiki.postList.act.select.desc">Apre il post nel pannello centrale per la modifica.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.postList.act.reorder">Riordina</td>
+                  <td data-i18n="wiki.postList.act.reorder.how">Trascina</td>
+                  <td data-i18n="wiki.postList.act.reorder.desc">Trascina un post su un altro per cambiarne l'ordine nel feed.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.postList.act.duplicate">Duplica</td>
+                  <td data-i18n="wiki.postList.act.duplicate.how">Tasto destro → Duplica</td>
+                  <td data-i18n="wiki.postList.act.duplicate.desc">Crea una copia del post con un nuovo ID.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.postList.act.delete">Elimina</td>
+                  <td data-i18n="wiki.postList.act.delete.how">Tasto destro → Elimina</td>
+                  <td data-i18n="wiki.postList.act.delete.desc">Rimuove il post. Le transizioni che puntavano a questo post verranno invalidate.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.postList.act.add">Nuovo post</td>
+                  <td data-i18n="wiki.postList.act.add.how">Pulsante + in fondo</td>
+                  <td data-i18n="wiki.postList.act.add.desc">Aggiunge un post vuoto in fondo alla lista.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="wiki-warn wiki-tip">
+              <strong>⚠</strong> <span data-i18n="wiki.postList.warn">Se elimini un post a cui other post puntano con una transizione, quei collegamenti si rompono. Il Validatore te lo segnalerà.</span>
+            </div>
+          </section>
+
+          <!-- ===== POST EDITOR ===== -->
+          <section id="post-editor">
+            <h2 data-i18n="wiki.postEd.title">Editor Post (Pannello Centrale)</h2>
+            <p data-i18n="wiki.postEd.p1">Selezionando un post dalla lista sinistra, il pannello centrale mostra il form di modifica completo. Ogni sezione è descritta di seguito.</p>
+
+            <!-- 5.1 Image -->
+            <section id="post-image">
+              <h3 data-i18n="wiki.postEd.img.title">Immagine e Framing</h3>
+              <p data-i18n="wiki.postEd.img.p1">Ogni post ha un'immagine associata. Puoi caricarla dal pulsante <strong>Carica immagine</strong> e regolarne la posizione con l'<strong>editor di framing</strong>.</p>
+
+              <h4 data-i18n="wiki.postEd.img.framing.title">Editor di Framing</h4>
+              <p data-i18n="wiki.postEd.img.framing.p1">L'editor di framing ti permette di regolare come l'immagine appare nel feed del telefono:</p>
+              <ul>
+                <li data-i18n="wiki.postEd.img.framing.pan"><strong>Pan (Trascina)</strong>: trascina l'immagine per spostarla orizzontalmente o verticalmente.</li>
+                <li data-i18n="wiki.postEd.img.framing.zoom"><strong>Zoom</strong>: usa lo slider per ingrandire o rimpicciolire (da 1x a 4x).</li>
+                <li data-i18n="wiki.postEd.img.framing.reset"><strong>Reset</strong>: ripristina la posizione originale.</li>
+              </ul>
+
+              <h4 data-i18n="wiki.postEd.img.ratio.title">Proporzioni (Ratio)</h4>
+              <p data-i18n="wiki.postEd.img.ratio.p1">Scegli le proporzioni dell'immagine nel feed:</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Ratio</th>
+                    <th data-i18n="wiki.table.desc">Descrizione</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td><code>1:1</code></td><td data-i18n="wiki.postEd.img.ratio.11">Quadrato — perfetto per feed classici.</td></tr>
+                  <tr><td><code>4:5</code></td><td data-i18n="wiki.postEd.img.ratio.45">Verticale — ottimizzato per schermate verticali.</td></tr>
+                  <tr><td><code>16:9</code></td><td data-i18n="wiki.postEd.img.ratio.169">Orizzontale — per panoramiche e landscape.</td></tr>
+                </tbody>
+              </table>
+            </section>
+
+            <!-- 5.2 Caption -->
+            <section id="post-caption">
+              <h3 data-i18n="wiki.postEd.caption.title">Didascalia (Caption)</h3>
+              <p data-i18n="wiki.postEd.caption.p1">Il testo della didascalia è il contenuto principale del post. Scrivi qui il testo che il giocatore leggerà nel feed.</p>
+              <p data-i18n="wiki.postEd.caption.username">Importante: all'inizio della didascalia, includi <strong>il nome utente del profilo social</strong> (senza il simbolo <code>@</code>). Questo nome verrà evidenziato in grassetto nel feed del gioco, come in un normale post social.</p>
+              <p data-i18n="wiki.postEd.caption.p2">La didascalia è un campo <strong>traducibile</strong>: quando crei versioni in altre lingue, questo testo verrà tradotto separatamente (Classe C nel sistema di mirror rigido).</p>
+
+              <div class="wiki-tip">
+                <strong data-i18n="wiki.postEd.caption.tip.title">Suggerimento</strong> — <span data-i18n="wiki.postEd.caption.tip.text">Tieni le didascalie brevi e d'impatto. Nel gioco appaiono in un feed mobile: testi troppo lunghi verranno troncati.</span>
+              </div>
+            </section>
+
+            <!-- 5.3 Hashtags -->
+            <section id="post-hashtags">
+              <h3 data-i18n="wiki.postEd.hash.title">Hashtag</h3>
+              <p data-i18n="wiki.postEd.hash.p1">Ogni post può avere una lista di hashtag (es. <code>#mistero</code>, <code>#viaggiotempo</code>). Gli hashtag vengono mostrati sotto la didascalia nel feed.</p>
+              <p data-i18n="wiki.postEd.hash.p2">Gli hashtag seguono la <strong>Politica C</strong>: ogni lingua ha la sua tabella di traduzione. Quando traduci il progetto, gli hashtag vengono mappati lingua per lingua tramite la <strong>Tabella Hashtag</strong> nel pannello di Localizzazione.</p>
+
+              <h4 data-i18n="wiki.postEd.hash.table.title">Tabella Hashtag</h4>
+              <p data-i18n="wiki.postEd.hash.table.p1">Nel pannello Localizzazione puoi definire la corrispondenza tra hashtag nella lingua sorgente e nella lingua target. Ad esempio:</p>
+<pre><code>#mistero  →  #mystery    (EN)
+#mistero  →  #misterio    (ES)
+#mistero  →  #Mystery     (DE)</code></pre>
+            </section>
+
+            <!-- 5.4 Likes -->
+            <section id="post-likes">
+              <h3 data-i18n="wiki.postEd.likes.title">Views e Mi Piace</h3>
+              <p data-i18n="wiki.postEd.likes.p1">Ogni post ha due contatori visibili nel feed:</p>
+              <ul>
+                <li data-i18n="wiki.postEd.likes.views"><strong>Views (visualizzazioni)</strong>: il numero di visualizzazioni del post.</li>
+                <li data-i18n="wiki.postEd.likes.base"><strong>Mi piace base</strong>: il numero di like che il post ha ricevuto.</li>
+              </ul>
+
+              <h4 data-i18n="wiki.postEd.likes.goesTo.title">Mi piace va a (Like Goes To)</h4>
+              <p data-i18n="wiki.postEd.likes.goesTo.p1">Questa è una feature narrativa avanzata: puoi impostare il "like finto" puntare a un <strong>post specifico</strong> o a un <strong>commento specifico</strong>. Quando il giocatore preme "like", il post destinatario riceve l'interazione.</p>
+              <p data-i18n="wiki.postEd.likes.goesTo.p2">Per le transizioni <code>fakeLike</code>, il campo <code>fakeCommentId</code> specifica l'ID del commento che finge di aver ricevuto il like. Questo crea un livello extra di narrazione: il giocatore pensa di interagire con un commento, ma in realtà sta avviando una transizione nascosta.</p>
+
+              <div class="wiki-note wiki-tip">
+                <strong>💡</strong> <span data-i18n="wiki.postEd.likes.note">Il sistema di "like finto" è uno degli elementi chiave del gioco: permette di nascondere transizioni in azioni apparentemente innocue.</span>
+              </div>
+            </section>
+
+            <!-- 5.5 Transitions -->
+            <section id="post-transitions">
+              <h3 data-i18n="wiki.postEd.trans.title">Transizioni</h3>
+              <p data-i18n="wiki.postEd.trans.p1">Le transizioni definiscono cosa succede quando il giocatore interagisce con il post. Ogni post può avere zero o più transizioni, ciascuna con un tipo diverso.</p>
+
+              <table>
+                <thead>
+                  <tr>
+                    <th data-i18n="wiki.table.type">Tipo</th>
+                    <th data-i18n="wiki.table.desc">Descrizione</th>
+                    <th data-i18n="wiki.table.fields">Campi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>standard</code></td>
+                    <td data-i18n="wiki.trans.standard.desc">Transizione diretta: porta il giocatore al post indicato.</td>
+                    <td><code>to</code>, <code>label</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>hidden</code></td>
+                    <td data-i18n="wiki.trans.hidden.desc">Transizione nascosta: non visibile nel feed, attivata da un'azione specifica.</td>
+                    <td><code>to</code>, <code>label</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>trap</code></td>
+                    <td data-i18n="wiki.trans.trap.desc">Trappola: quando il giocatore preme "like", viene reindirizzato a una Search Zone specifica.</td>
+                    <td><code>trapZoneId</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>fakeLike</code></td>
+                    <td data-i18n="wiki.trans.fakeLike.desc">Il like finge di puntare a un commento specifico, nascondendo la transizione reale.</td>
+                    <td><code>fakeCommentId</code>, <code>to</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>keyword</code></td>
+                    <td data-i18n="wiki.trans.keyword.desc">Transizione basata su keyword: se il giocatore scrive una parola chiave in un commento, parte la transizione.</td>
+                    <td><code>keywords</code>, <code>to</code></td>
+                  </tr>
+                  <tr>
+                    <td><code>none</code></td>
+                    <td data-i18n="wiki.trans.none.desc">Nessuna transizione. Il post è un punto morto (fine del ramo narrativo).</td>
+                    <td>—</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h4 data-i18n="wiki.postEd.trans.reply.title">Reply (Risposta)</h4>
+              <p data-i18n="wiki.postEd.trans.reply.p1">Ogni transizione può avere un campo <code>reply</code>: è il testo che appare come risposta automatica al commento o all'interazione del giocatore.</p>
+            </section>
+
+            <!-- 5.6 Comments -->
+            <section id="post-comments">
+              <h3 data-i18n="wiki.postEd.comments.title">Commenti</h3>
+              <p data-i18n="wiki.postEd.comments.p1">I commenti sono il cuore narrativo del gioco. Ogni post può avere una lista di commenti fittizi che simulano le reazioni di altri utenti del feed social.</p>
+
+              <h4 data-i18n="wiki.postEd.comments.fields.title">Campi di ogni commento</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th data-i18n="wiki.table.field">Campo</th>
+                    <th data-i18n="wiki.table.desc">Descrizione</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>author</code></td>
+                    <td data-i18n="wiki.postEd.comments.author">Nome visualizzato dell'autore del commento.</td>
+                  </tr>
+                  <tr>
+                    <td><code>handle</code></td>
+                    <td data-i18n="wiki.postEd.comments.handle">Username/nickname (es. <code>@timetraveler</code>).</td>
+                  </tr>
+                  <tr>
+                    <td><code>text</code></td>
+                    <td data-i18n="wiki.postEd.comments.text">Il testo del commento. Campo traducibile.</td>
+                  </tr>
+                  <tr>
+                    <td><code>likes</code></td>
+                    <td data-i18n="wiki.postEd.comments.likes">Numero di like del commento.</td>
+                  </tr>
+                  <tr>
+                    <td><code>publishedAt</code></td>
+                    <td data-i18n="wiki.postEd.comments.date">Data e ora di pubblicazione.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h4 data-i18n="wiki.postEd.comments.dateMode.title">Modalità Data</h4>
+              <p data-i18n="wiki.postEd.comments.dateMode.p1">Per ogni commento puoi scegliere tra due modalità:</p>
+              <ul>
+                <li data-i18n="wiki.postEd.comments.dateMode.auto"><strong>Automatica (default)</strong> — la data viene calcolata automaticamente in base all'ordine dei commenti nel post.</li>
+                <li data-i18n="wiki.postEd.comments.dateMode.custom"><strong>Custom</strong> — puoi impostare manualmente data e ora di pubblicazione del commento.</li>
+              </ul>
+
+              <h4 data-i18n="wiki.postEd.comments.chips.title">Chip dei Commenti</h4>
+              <p data-i18n="wiki.postEd.comments.chips.p1">I <strong>chip</strong> sono piccole etichette cliccabili che appaiono sotto i commenti nel feed. Sono collegati alle <strong>Search Zone</strong>: quando un giocatore clicca un chip, viene reindirizzato alla zona corrispondente.</p>
+              <p data-i18n="wiki.postEd.comments.chips.p2">Ogni chip ha un <code>label</code> (il testo visibile) e un <code>reply</code> (la risposta che appare dopo il click). Il chip può essere un <strong>distrattore</strong> (<code>isDistractor: true</code>): sembra rilevante ma non porta da nessuna parte.</p>
+
+              <h4 data-i18n="wiki.postEd.comments.crud.title">Gestione Commenti</h4>
+              <p data-i18n="wiki.postEd.comments.crud.p1">Puoi gestire i commenti di ogni post direttamente nell'editor:</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th data-i18n="wiki.table.action">Azione</th>
+                    <th data-i18n="wiki.table.how">Come</th>
+                    <th data-i18n="wiki.table.desc">Descrizione</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-i18n="wiki.postEd.comments.crud.add">Aggiungi</td>
+                    <td data-i18n="wiki.postEd.comments.crud.add.how">Pulsante + sotto la lista commenti</td>
+                    <td data-i18n="wiki.postEd.comments.crud.add.desc">Crea un nuovo commento vuoto nel post.</td>
+                  </tr>
+                  <tr>
+                    <td data-i18n="wiki.postEd.comments.crud.edit">Modifica</td>
+                    <td data-i18n="wiki.postEd.comments.crud.edit.how">Click sul campo</td>
+                    <td data-i18n="wiki.postEd.comments.crud.edit.desc">Modifica testo, autore, data o like del commento.</td>
+                  </tr>
+                  <tr>
+                    <td data-i18n="wiki.postEd.comments.crud.delete">Elimina</td>
+                    <td data-i18n="wiki.postEd.comments.crud.delete.how">Icona cestino accanto al commento</td>
+                    <td data-i18n="wiki.postEd.comments.crud.delete.desc">Rimuove il commento dal post.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <!-- 5.7 Zones -->
+            <section id="post-zones">
+              <h3 data-i18n="wiki.postEd.zones.title">Search Zone e Trappole</h3>
+              <p data-i18n="wiki.postEd.zones.p1">Le <strong>Search Zone</strong> sono aree cliccabili sull'immagine del post. Il giocatore può "cliccare" sull'immagine per cercare indizi nascosti.</p>
+
+              <div class="wiki-tip">
+                <strong data-i18n="wiki.postEd.zones.example.title">Esempio</strong> — <span data-i18n="wiki.postEd.zones.example.text">Immagina un post di un ristorante: il giocatore clicca sul tavolo nell'immagine e trova una Search Zone con commento "Kebab pizza margherita" — una frase apparentemente innocua che in realtà è la keyword per sbloccare un ramo narrativo nascosto.</span>
+              </div>
+
+              <h4 data-i18n="wiki.postEd.zones.fields.title">Campi di ogni Search Zone</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th data-i18n="wiki.table.field">Campo</th>
+                    <th data-i18n="wiki.table.desc">Descrizione</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>id</code></td>
+                    <td data-i18n="wiki.postEd.zones.id">Identificativo univoco della zona.</td>
+                  </tr>
+                  <tr>
+                    <td><code>name</code></td>
+                    <td data-i18n="wiki.postEd.zones.name">Nome interno (non visibile al giocatore).</td>
+                  </tr>
+                  <tr>
+                    <td><code>x, y, w, h</code></td>
+                    <td data-i18n="wiki.postEd.zones.coords">Coordinate normalizzate (0..1) della zona rettangolare sull'immagine.</td>
+                  </tr>
+                  <tr>
+                    <td><code>comment</code></td>
+                    <td data-i18n="wiki.postEd.zones.comment">Testo del commento che appare quando il giocatore clicca la zona.</td>
+                  </tr>
+                  <tr>
+                    <td><code>label / reply</code></td>
+                    <td data-i18n="wiki.postEd.zones.labelReply">Etichetta del chip e risposta associata.</td>
+                  </tr>
+                  <tr>
+                    <td><code>to</code></td>
+                    <td data-i18n="wiki.postEd.zones.to">ID del post di destinazione dopo il click.</td>
+                  </tr>
+                  <tr>
+                    <td><code>isDistractor</code></td>
+                    <td data-i18n="wiki.postEd.zones.distractor">Se <code>true</code>, è una zona trappola: il giocatore clicca ma non succede nulla di utile.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="wiki-tip">
+                <strong data-i18n="wiki.postEd.zones.tip.title">Trappole narrativi</strong> — <span data-i18n="wiki.postEd.zones.tip.text">Le Search Zone con <code>isDistractor: true</code> sono utili per creare finte piste: il giocatore crede di aver trovato un indizio, ma in realtà è solo un diversivo. Questo aumenta la complessità della storia.</span>
+              </div>
+            </section>
+          </section>
+
+          <!-- ===== PHOTOS ===== -->
+          <section id="photos">
+            <h2 data-i18n="wiki.photos.title">Pannello Fotografie (Image Importer)</h2>
+            <p data-i18n="wiki.photos.p1">Il pannello Foto ti permette di importare e comprimere le immagini per il tuo progetto.</p>
+
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-photos.png" alt="Pannello Fotografie" loading="lazy">
+              <figcaption data-i18n="wiki.photos.fig">Pannello Fotografie con opzioni di compressione.</figcaption>
+            </figure>
+
+            <h3 data-i18n="wiki.photos.how.title">Come funziona</h3>
+            <ol class="wiki-steps">
+              <li data-i18n="wiki.photos.step1">Seleziona la <strong>cartella sorgente</strong> contenente le immagini da importare.</li>
+              <li data-i18n="wiki.photos.step2">Imposta il <strong>bilanciamento compressione</strong> (slider 0–4): 0 = massima qualità, 4 = massima compressione.</li>
+              <li data-i18n="wiki.photos.step3">Clicca <strong>Importa</strong> per convertire tutte le immagini in formato WebP e copiarle nella cartella del progetto.</li>
+            </ol>
+
+            <h3 data-i18n="wiki.photos.crud.title">Gestione Foto</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="wiki.table.action">Azione</th>
+                  <th data-i18n="wiki.table.how">Come</th>
+                  <th data-i18n="wiki.table.desc">Descrizione</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-i18n="wiki.photos.crud.add">Aggiungi</td>
+                  <td data-i18n="wiki.photos.crud.add.how">Drag and drop</td>
+                  <td data-i18n="wiki.photos.crud.add.desc">Trascina immagini direttamente nella griglia del pannello Foto.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.photos.crud.browse">Sfoglia</td>
+                  <td data-i18n="wiki.photos.crud.browse.how">Pulsante Sfoglia</td>
+                  <td data-i18n="wiki.photos.crud.browse.desc">Apri il selettore cartelle per scegliere le immagini da importare.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.photos.crud.delete">Elimina</td>
+                  <td data-i18n="wiki.photos.crud.delete.how">Icona cestino sulla foto</td>
+                  <td data-i18n="wiki.photos.crud.delete.desc">Rimuove la foto dal progetto (con conferma).</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.photos.crud.assign">Applica a post</td>
+                  <td data-i18n="wiki.photos.crud.assign.how">Doppio click sulla foto</td>
+                  <td data-i18n="wiki.photos.crud.assign.desc">Assegna la foto selezionata come immagine principale del post corrente.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3 data-i18n="wiki.photos.settings.title">Impostazioni</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="wiki.table.setting">Impostazione</th>
+                  <th data-i18n="wiki.table.desc">Descrizione</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-i18n="wiki.photos.set.source">Cartella sorgente</td>
+                  <td data-i18n="wiki.photos.set.source.desc">Percorso della cartella con le immagini originali (JPG, PNG, WebP).</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.photos.set.ffmpeg">Percorso ffmpeg</td>
+                  <td data-i18n="wiki.photos.set.ffmpeg.desc">Path all'eseguibile ffmpeg, necessario per la conversione WebP. Se non impostato, la compressione non funziona.</td>
+                </tr>
+                <tr>
+                  <td data-i18n="wiki.photos.set.compression">Bilanciamento compressione</td>
+                  <td data-i18n="wiki.photos.set.compression.desc">Slider da 0 a 4. Valori più alti = file più piccoli ma qualità inferiore. Consigliato: 1-2 per un buon compromesso.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="wiki-note wiki-tip">
+              <strong>💡</strong> <span data-i18n="wiki.photos.note">Le immagini vengono automaticamente convertite in WebP, il formato ottimizzato per il web e per l'app mobile. Le dimensioni finali dipendono dal ratio del post e dal livello di compressione.</span>
+            </div>
+          </section>
+
+          <!-- ===== STORYBOARD ===== -->
+          <section id="storyboard">
+            <h2 data-i18n="wiki.storyboard.title">Storyboard</h2>
+            <p data-i18n="wiki.storyboard.p1">Lo Storyboard è un grafo visuale che mostra tutti i post del progetto come nodi collegati dalle frecce delle transizioni. È diviso in <strong>linee</strong> (linee narrative) per organizzare i post per ramo narrativo.</p>
+
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-storyboard.png" alt="Storyboard" loading="lazy">
+              <figcaption data-i18n="wiki.storyboard.fig">Storyboard con nodi, frecce e legenda colori.</figcaption>
+            </figure>
+
+            <h3 data-i18n="wiki.storyboard.navigate.title">Navigazione</h3>
+            <p data-i18n="wiki.storyboard.navigate.p1">Cliccando su un nodo dello Storyboard, l'editor apre automaticamente quel post nel pannello centrale per la modifica. Il nodo selezionato viene evidenziato con un <strong>colore diverso</strong> (clicked colorato) per mostrare quale post è attivo.</p>
+
+            <h3 data-i18n="wiki.storyboard.features.title">Funzionalità</h3>
+            <ul>
+              <li data-i18n="wiki.storyboard.f1"><strong>Vista albero/grafo</strong>: visualizza tutti i post come nodi collegati da frecce che rappresentano le transizioni.</li>
+              <li data-i18n="wiki.storyboard.f2"><strong>Nodi draggable</strong>: trascina i post per riorganizzare il layout visuale.</li>
+              <li data-i18n="wiki.storyboard.f3"><strong>Frecce colorate</strong>: ogni tipo di transizione ha un colore diverso (standard = blu, trappola = rosso, keyword = giallo, ecc.).</li>
+              <li data-i18n="wiki.storyboard.f4"><strong>Nodo clicked colorato</strong>: il post selezionato viene evidenziato con un bordo colorato per identificare rapidamente la posizione corrente.</li>
+              <li data-i18n="wiki.storyboard.f5"><strong>Click → Editor</strong>: clicca su un nodo per aprire quel post direttamente nel pannello di modifica.</li>
+              <li data-i18n="wiki.storyboard.f6"><strong>Aggiungi post</strong>: pulsante + per aggiungere un nuovo post direttamente dallo Storyboard.</li>
+              <li data-i18n="wiki.storyboard.f7"><strong>Elimina post</strong>: tasto destro sul nodo per eliminare un post dal grafo (con conferma).</li>
+              <li data-i18n="wiki.storyboard.f8"><strong>Duplica post</strong>: tasto destro sul nodo per duplicare un post con tutte le sue transizioni.</li>
+              <li data-i18n="wiki.storyboard.f9"><strong>Griglia</strong>: griglia opzionale di sfondo per allineare i nodi.</li>
+              <li data-i18n="wiki.storyboard.f10"><strong>Legenda</strong>: mostra il significato dei colori per tipo di transizione.</li>
+              <li data-i18n="wiki.storyboard.f11"><strong>Tutto schermo</strong>: espande lo storyboard a tutto schermo per una visione d'insieme.</li>
+            </ul>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.storyboard.tip.title">Uso consigliato</strong> — <span data-i18n="wiki.storyboard.tip.text">Usa lo Storyboard per verificare che tutti i rami narrativi siano collegati correttamente e non ci siano nodi isolati o cicli indesiderati.</span>
+            </div>
+          </section>
+
+          <!-- ===== SIMULATOR ===== -->
+          <section id="simulator">
+            <h2>
+              <span data-i18n="wiki.sim.title">Simulatore</span>
+              <span class="wiki-badge wiki-badge-early">Early Stage</span>
+            </h2>
+            <p data-i18n="wiki.sim.p1">Il simulatore riproduce l'esperienza del giocatore sul telefono: mostra il feed con i post, i commenti, i like e le interazioni. Puoi navigare tra i post cliccando sulle transizioni per testare il flusso narrativo.</p>
+
+            <h3 data-i18n="wiki.sim.features.title">Funzionalità</h3>
+            <ul>
+              <li data-i18n="wiki.sim.f1"><strong>Feed simulato</strong>: visualizzazione del post corrente con avatar, handle, didascalia e interazioni.</li>
+              <li data-i18n="wiki.sim.f2"><strong>Search Zone interattive</strong>: le aree cliccabili vengono evidenziate; cliccandole segue la transizione.</li>
+              <li data-i18n="wiki.sim.f3"><strong>Zoom</strong>: slider per ingrandire il post nel simulatore.</li>
+              <li><strong>Navigazione</strong>: click su transizione → vai al post successivo.</li>
+            </ul>
+
+            <div class="wiki-warn wiki-tip">
+              <strong>⚠</strong> <span data-i18n="wiki.sim.warn">Il simulatore è in fase <strong>early stage</strong> e non è ancora stato testato completamente. Alcune feature (come le trap e i keyword triggers) potrebbero non funzionare correttamente.</span>
+            </div>
+          </section>
+
+          <!-- ===== VALIDATOR ===== -->
+          <section id="validator">
+            <h2 data-i18n="wiki.validator.title">Validatore</h2>
+            <p data-i18n="wiki.validator.p1">Il validatore controlla la coerenza del progetto e ti dice cosa manca da fare prima di esportare.</p>
+
+            <h3 data-i18n="wiki.validator.checks.title">Controlli eseguiti</h3>
+            <ul>
+              <li data-i18n="wiki.validator.c1"><strong>Post senza immagine</strong>: ogni post deve avere un'immagine associata. I post senza immagine vengono segnalati come errori.</li>
+              <li data-i18n="wiki.validator.c2"><strong>Transizioni a post inesistenti</strong>: verifica che ogni transizione punti a un ID post valido. Le transizioni rotte vengono segnalate.</li>
+              <li data-i18n="wiki.validator.c3"><strong>Loop infiniti</strong>: rileva cicli nelle transizioni dove il giocatore potrebbe restare intrappolato infinitamente.</li>
+              <li data-i18n="wiki.validator.c4"><strong>Commenti con keyword mancanti</strong>: le transizioni di tipo keyword richiedono che almeno un commento contenga la keyword. Se manca, viene segnalato.</li>
+              <li data-i18n="wiki.validator.c5"><strong>Coincidenza fakeCommentId</strong>: verifica che i fakeCommentId puntino a commenti effettivamente presenti nel post.</li>
+            </ul>
+
+            <h3 data-i18n="wiki.validator.features.title">Funzionalità</h3>
+            <ul>
+              <li data-i18n="wiki.validator.f1"><strong>Validazione completa</strong>: analizza l'intero progetto in un solo click.</li>
+              <li data-i18n="wiki.validator.f2"><strong>Errori e avvisi</strong>: gli errori in rosso vanno corretti; gli avvisi in giallo sono consigli.</li>
+              <li data-i18n="wiki.validator.f3"><strong>Sincronizza e ripara</strong>: allinea automaticamente la struttura della lingua target a quella della lingua sorgente.</li>
+              <li data-i18n="wiki.validator.f4"><strong>Link diretto</strong>: clicca su un errore per navigare direttamente al post o alla transizione problematica.</li>
+              <li data-i18n="wiki.validator.f5"><strong>Riesecuzione</strong>: dopo aver corretto gli errori, riesegui la validazione per verificare che tutto sia risolto.</li>
+            </ul>
+
+            <h3 data-i18n="wiki.validator.how.title">Come usarlo</h3>
+            <ol class="wiki-steps">
+              <li data-i18n="wiki.validator.s1">Apri il tab <strong>Validazione</strong> nel pannello destro.</li>
+              <li data-i18n="wiki.validator.s2">Clicca <strong>Avvia validazione</strong>. Il sistema analizzerà l'intero progetto.</li>
+              <li data-i18n="wiki.validator.s3">Leggi i risultati: gli errori in rosso vanno corretti; gli avvisi in giallo sono consigli.</li>
+              <li data-i18n="wiki.validator.s4">Usa <strong>Sincronizza e ripara</strong> per allineare automaticamente la struttura della lingua target a quella della lingua sorgente.</li>
+            </ol>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.validator.tip.title">Suggerimento</strong> — <span data-i18n="wiki.validator.tip.text">Esegui la validazione prima di ogni esportazione per evitare sorprese al giocatore.</span>
+            </div>
+          </section>
+
+          <!-- ===== LLM ===== -->
+          <section id="llm">
+            <h2 data-i18n="wiki.llm.title">LLM Workbench (Workbench AI)</h2>
+            <p data-i18n="wiki.llm.p1">Il LLM Workbench ti permette di generare testi per post, commenti e trappole usando un provider di intelligenza artificiale. Puoi usare un modello locale (Ollama, LM Studio) o un servizio cloud (OpenAI, Gemini, Groq, DeepSeek).</p>
+
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-llm.png" alt="LLM Workbench" loading="lazy">
+              <figcaption data-i18n="wiki.llm.fig">Pannello LLM Workbench con picker dei prompt.</figcaption>
+            </figure>
+
+            <h3 data-i18n="wiki.llm.setup.title">Configurazione iniziale</h3>
+            <ol class="wiki-steps">
+              <li data-i18n="wiki.llm.s1">Clicca il pulsante <strong>LLM</strong> nell'header dell'editor per aprire il pannello.</li>
+              <li data-i18n="wiki.llm.s2">Al primo avvio si apre il <strong>Wizard di connessione</strong>: scegli il provider (preset o custom), inserisci l'API key e il modello.</li>
+              <li data-i18n="wiki.llm.s3">Clicca <strong>Test connessione</strong> per verificare che tutto funzioni.</li>
+              <li data-i18n="wiki.llm.s4">Clicca <strong>Lista modelli</strong> per vedere i modelli disponibili dal provider.</li>
+            </ol>
+
+            <h3 data-i18n="wiki.llm.capabilities.title">Cosa puoi fare con il LLM</h3>
+            <ul>
+              <li data-i18n="wiki.llm.cap1"><strong>Genera contenuti</strong>: crea post, commenti, didascalie e hashtag a partire da un copione o da un'idea.</li>
+              <li data-i18n="wiki.llm.cap2"><strong>Traduci</strong>: traduci l'intera storia in IT, EN, ES, DE, FR mantenendo il tono e lo stile.</li>
+              <li data-i18n="wiki.llm.cap3"><strong>Migliora</strong>: riscrivi, espandi o comprimi testi per renderli piu coinvolgenti.</li>
+              <li data-i18n="wiki.llm.cap4"><strong>Controlla coerenza</strong>: verifica che la storia siacoerente e logica, senza buchi narrativi.</li>
+            </ul>
+
+            <h3 data-i18n="wiki.llm.providers.title">Provider supportati</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Provider</th>
+                  <th data-i18n="wiki.table.type">Tipo</th>
+                  <th data-i18n="wiki.table.notes">Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>OpenAI</td><td data-i18n="wiki.llm.prov.cloud">Cloud</td><td data-i18n="wiki.llm.prov.openai">GPT-4o, GPT-4o-mini, ecc.</td></tr>
+                <tr><td>Gemini</td><td data-i18n="wiki.llm.prov.cloud">Cloud</td><td data-i18n="wiki.llm.prov.gemini">Google AI Studio</td></tr>
+                <tr><td>Groq</td><td data-i18n="wiki.llm.prov.cloud">Cloud</td><td data-i18n="wiki.llm.prov.groq">Veloce, modelli open-source</td></tr>
+                <tr><td>DeepSeek</td><td data-i18n="wiki.llm.prov.cloud">Cloud</td><td data-i18n="wiki.llm.prov.deepseek">Modelli DeepSeek V3/R1</td></tr>
+                <tr><td>OpenRouter</td><td data-i18n="wiki.llm.prov.cloud">Cloud</td><td data-i18n="wiki.llm.prov.openrouter">Router multiprovider</td></tr>
+                <tr><td>Ollama</td><td data-i18n="wiki.llm.prov.local">Locale</td><td data-i18n="wiki.llm.prov.ollama">Modelli locali, nessun costo</td></tr>
+                <tr><td>LM Studio</td><td data-i18n="wiki.llm.prov.local">Locale</td><td data-i18n="wiki.llm.prov.lmstudio">Interfaccia grafica per modelli locali</td></tr>
+                <tr><td>Custom</td><td data-i18n="wiki.llm.prov.custom">Custom</td><td data-i18n="wiki.llm.prov.custom.desc">Qualsiasi endpoint OpenAI-compatibile</td></tr>
+              </tbody>
+            </table>
+
+            <h3 data-i18n="wiki.llm.prompts.title">Library di Prompt (Template)</h3>
+            <p data-i18n="wiki.llm.prompts.p1">Story Forge include 14 template di prompt (T01–T14), ognuno ottimizzato per un compito specifico:</p>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Template</th>
+                  <th data-i18n="wiki.table.purpose">Scopo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><code>T01</code></td><td data-i18n="wiki.llm.t01">Genera nuovi rami narrativi dallo scenario</td></tr>
+                <tr><td><code>T02</code></td><td data-i18n="wiki.llm.t02">Modifica un post esistente</td></tr>
+                <tr><td><code>T03</code></td><td data-i18n="wiki.llm.t03">Nuovo branch da un punto specifico</td></tr>
+                <tr><td><code>T04</code></td><td data-i18n="wiki.llm.t04">Genera o suggerisci transizioni</td></tr>
+                <tr><td><code>T05</code></td><td data-i18n="wiki.llm.t05">Genera commenti per un post</td></tr>
+                <tr><td><code>T06</code></td><td data-i18n="wiki.llm.t06">Genera o modifica il profilo social</td></tr>
+                <tr><td><code>T07</code></td><td data-i18n="wiki.llm.t07">Genera Search Zone (aree cliccabili)</td></tr>
+                <tr><td><code>T08</code></td><td data-i18n="wiki.llm.t08">Scenario libero (brainstorming)</td></tr>
+                <tr><td><code>T09</code></td><td data-i18n="wiki.llm.t09">Correggi errori di parsing (fix prompt)</td></tr>
+                <tr><td><code>T10</code></td><td data-i18n="wiki.llm.t10">Traduci in inglese (per tripla linguistica)</td></tr>
+                <tr><td><code>T11</code></td><td data-i18n="wiki.llm.t11">Traduzione post (da EN a lingua target)</td></tr>
+                <tr><td><code>T12</code></td><td data-i18n="wiki.llm.t12">Traduzione profili</td></tr>
+                <tr><td><code>T13</code></td><td data-i18n="wiki.llm.t13">Traduzione Search Zone</td></tr>
+                <tr><td><code>T14</code></td><td data-i18n="wiki.llm.t14">Riepilogo/summary della storia</td></tr>
+              </tbody>
+            </table>
+
+            <h3 data-i18n="wiki.llm.workflow.title">Flusso di lavoro</h3>
+            <ol class="wiki-steps">
+              <li data-i18n="wiki.llm.wf1"><strong>Scegli il prompt</strong>: nel Prompt Picker seleziona il template adatto al tuo compito.</li>
+              <li data-i18n="wiki.llm.wf2"><strong>Compila i parametri</strong>: inserisci lo scenario, il post di partenza, il numero di nodi, ecc.</li>
+              <li data-i18n="wiki.llm.wf3"><strong>Genera</strong>: clicca <strong>Genera</strong> per inviare il prompt al provider LLM. Oppure copia il prompt e incollalo dove vuoi.</li>
+              <li data-i18n="wiki.llm.wf4"><strong>Importa l'output</strong>: incolla la risposta LLM nell'<strong>Import Zone</strong> e clicca <strong>Controlla</strong>.</li>
+              <li data-i18n="wiki.llm.wf5"><strong>Revisiona i draft</strong>: i nodi generati appaiono come draft card con stato (nuovo, modificato, applicato, scartato, errore).</li>
+              <li data-i18n="wiki.llm.wf6"><strong>Applica o scarta</strong>: per ogni draft, clicca <strong>Applica</strong> per inserirlo nel progetto o <strong>Scarta</strong> per ignorarlo.</li>
+            </ol>
+
+            <h3 data-i18n="wiki.llm.paste.title">Copia e Incolla Manuale</h3>
+            <p data-i18n="wiki.llm.paste.p1">Se preferisci usare ChatGPT, Claude o un altro strumento esterno, puoi copiare il prompt e incollare la risposta nell'Import Zone. Il sistema analizzerà automaticamente il testo, estrarà il JSON e genererà i draft.</p>
+
+            <h3 data-i18n="wiki.llm.offline.title">Modalità Offline (Locale)</h3>
+            <p data-i18n="wiki.llm.offline.p1">Per lavorare senza connessione internet, usa <strong>Ollama</strong> o <strong>LM Studio</strong>. Installa uno dei due, scarica un modello (consigliato: Llama 3, Mistral, o Phi-3), e configuralo nelle impostazioni LLM con URL base <code>http://localhost:11434/v1</code> (Ollama) o <code>http://localhost:1234/v1</code> (LM Studio).</p>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.llm.tip.title">Suggerimento</strong> — <span data-i18n="wiki.llm.tip.text">I modelli locali funzionano bene per generare commenti e didascalie semplici. Per storie complesse con molte transizioni, i modelli cloud (GPT-4o, Gemini) danno risultati migliori.</span>
+            </div>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.llm.tip2.title">Suggerimento avanzato</strong> — <span data-i18n="wiki.llm.tip2.text">Per ottenere i migliori risultati, inizia con i prompt base (T01-T03) per generare la struttura, poi usa i prompt specializzati (T07, T10) per raffinare il tono e verificare la coerenza della storia.</span>
+            </div>
+          </section>
+
+          <!-- ===== LOCALIZATION ===== -->
+          <section id="localization">
+            <h2 data-i18n="wiki.loc.title"><span class="wiki-icon">&#x1F310;</span> Localizzazione e Traduzioni</h2>
+            <p data-i18n="wiki.loc.p1">Story Forge supporta la creazione di storie multilingue con traduzioni incrociate tra 5 lingue: <strong>Italiano, Inglese, Spagnolo, Tedesco e Francese</strong>.</p>
+
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-localization.png" alt="Localizzazione" loading="lazy">
+              <figcaption data-i18n="wiki.loc.fig">Pannello di Localizzazione con opzioni di traduzione.</figcaption>
+            </figure>
+
+            <h3 data-i18n="wiki.loc.mirror.title">Sistema di Mirror Rigido</h3>
+            <p data-i18n="wiki.loc.mirror.p1">La localizzazione usa un sistema di <strong>mirror rigido</strong>: la struttura del progetto nella lingua target viene sempre copiata dalla lingua sorgente (fonte). Solo i campi testuali vengono tradotti.</p>
+
+            <h4 data-i18n="wiki.loc.mirror.classes.title">Classi di campi</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th>Classe</th>
+                  <th data-i18n="wiki.table.behavior">Comportamento</th>
+                  <th data-i18n="wiki.table.examples">Esempi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>A (gameplay)</strong></td>
+                  <td data-i18n="wiki.loc.mirror.a.beh">Sempre copiati dalla fonte. Mai tradotti.</td>
+                  <td data-i18n="wiki.loc.mirror.a.ex">Immagini, ratio, contatori, transizioni, link, coordinate</td>
+                </tr>
+                <tr>
+                  <td><strong>C (testo)</strong></td>
+                  <td data-i18n="wiki.loc.mirror.c.beh">Traducibili. Vengono tradotti solo se non già tradotti.</td>
+                  <td data-i18n="wiki.loc.mirror.c.ex">Caption, commenti, label/reply, nome, bio, hashtags</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3 data-i18n="wiki.loc.engines.title">Motori di traduzione</h3>
+            <ul>
+              <li data-i18n="wiki.loc.eng.mt"><strong>Machine Translation (MT)</strong>: Google Translate gratuito. Traduzione automatica istantanea. Qualità buona per testi semplici.</li>
+              <li data-i18n="wiki.loc.eng.llm"><strong>LLM Translation</strong>: usa i template T11/T12/T13 tramite il provider LLM configurato. Qualità superiore, specialmente per testi creativi e narrativi.</li>
+            </ul>
+
+            <h3 data-i18n="wiki.loc.how.title">Come tradurre</h3>
+            <ol class="wiki-steps">
+              <li data-i18n="wiki.loc.s1">Apri il tab <strong>Localizzazione</strong> nel pannello destro.</li>
+              <li data-i18n="wiki.loc.s2">Seleziona la <strong>lingua sorgente</strong> (di solito IT) e la <strong>lingua target</strong> (es. EN).</li>
+              <li data-i18n="wiki.loc.s3">Scegli lo scope: <strong>Profilo</strong> (nome, bio, titolo), <strong>Post</strong> (caption, commenti, transizioni, zone) o <strong>Entrambi</strong>.</li>
+              <li data-i18n="wiki.loc.s4">Scegli il motore: <strong>MT</strong> (Google Translate) o <strong>LLM</strong> (AI provider).</li>
+              <li data-i18n="wiki.loc.s5">Clicca <strong>Traduci</strong>. Verrà mostrata un'anteprima diff con le modifiche prima di applicarle.</li>
+              <li data-i18n="wiki.loc.s6">Conferma per applicare le traduzioni al progetto.</li>
+            </ol>
+
+            <h3 data-i18n="wiki.loc.hashtags.title">Tabella Hashtag</h3>
+            <p data-i18n="wiki.loc.hashtags.p1">Gli hashtag richiedono una mappatura manuale poiché sono termini specifici del brand. Nel pannello Localizzazione puoi definire la corrispondenza hashtag per hashtag tra lingue.</p>
+
+            <h3 data-i18n="wiki.loc.features.title">Funzionalità principali</h3>
+            <ul>
+              <li data-i18n="wiki.loc.f1"><strong>Traduzione automatica</strong>: traduce l'intera storia (o singole sezioni) con un solo click usando MT o LLM.</li>
+              <li data-i18n="wiki.loc.f2"><strong>Anteprima diff</strong>: prima di applicare le traduzioni, puoi vedere una comparazione side-by-side tra testo originale e tradotto.</li>
+            </ul>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.loc.tip.title">Flusso consigliato</strong> — <span data-i18n="wiki.loc.tip.text">Prima traduci in inglese (EN) usando LLM (T10/T11), poi usa EN come fonte per le altre lingue (ES, DE, FR) usando MT o LLM. Questo "triangolo di traduzione" garantisce coerenza.</span>
+            </div>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.loc.tip2.title">Suggerimento avanzato</strong> — <span data-i18n="wiki.loc.tip2.text">Dopo ogni traduzione, esegui il Validatore per controllare che non ci siano campi testuali vuoti o incoerenze tra le lingue.</span>
+            </div>
+          </section>
+
+          <!-- ===== PROFILE ===== -->
+          <section id="profile">
+            <h2 data-i18n="wiki.profile.title">Profilo Social</h2>
+            <p data-i18n="wiki.profile.p1">Ogni progetto ha un <strong>profilo social</strong> che definisce l'identità del personaggio principale nel feed. Clicca il pulsante <strong>Profilo</strong> nell'header dell'editor per modificarlo.</p>
+
+            <figure class="wiki-screenshot">
+              <img src="assets/img/wiki/screenshot-profile.png" alt="Profilo Social" loading="lazy">
+              <figcaption data-i18n="wiki.profile.fig">Editor del profilo social.</figcaption>
+            </figure>
+
+            <h3 data-i18n="wiki.profile.fields.title">Campi del profilo</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="wiki.table.field">Campo</th>
+                  <th data-i18n="wiki.table.desc">Descrizione</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>name</code></td>
+                  <td data-i18n="wiki.profile.name">Nome visualizzato nel profilo.</td>
+                </tr>
+                <tr>
+                  <td><code>handle</code></td>
+                  <td data-i18n="wiki.profile.handle">Username (es. <code>@chronos_story</code>).</td>
+                </tr>
+                <tr>
+                  <td><code>bio</code></td>
+                  <td data-i18n="wiki.profile.bio">Biografia del profilo. Campo traducibile.</td>
+                </tr>
+                <tr>
+                  <td><code>adventureTitle</code></td>
+                  <td data-i18n="wiki.profile.advTitle">Titolo dell'avventura visualizzato nel profilo.</td>
+                </tr>
+                <tr>
+                  <td><code>followers</code></td>
+                  <td data-i18n="wiki.profile.followers">Numero di follower visualizzato.</td>
+                </tr>
+                <tr>
+                  <td><code>avatar</code></td>
+                  <td data-i18n="wiki.profile.avatar">Percorso dell'immagine dell'avatar.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3 data-i18n="wiki.profile.avatar.title">Avatar Framing</h3>
+            <p data-i18n="wiki.profile.avatar.p1">L'avatar ha il suo editor di framing separato: puoi regolare zoom e posizione dell'immagine circolare che appare accanto al nome del profilo.</p>
+
+            <h3 data-i18n="wiki.profile.advSettings.title">Impostazioni avanzate</h3>
+            <p data-i18n="wiki.profile.advSettings.p1">Nel pannello profilo puoi anche configurare:</p>
+            <ul>
+              <li data-i18n="wiki.profile.adv1"><strong>Lingue supportate</strong>: le lingue in cui il profilo può essere visualizzato. Queste lingue vengono usate dal sistema di Localizzazione per generare le varianti del profilo.</li>
+              <li data-i18n="wiki.profile.adv2"><strong>Account multipli</strong>: puoi creare più profili social per lo stesso progetto e passare da uno all'altro usando il selettore account nell'header.</li>
+            </ul>
+          </section>
+
+          <!-- ===== EXPORT ===== -->
+          <section id="export">
+            <h2 data-i18n="wiki.export.title">Import e Esporta Pacchetti</h2>
+
+            <h3 data-i18n="wiki.export.export.title">Esporta (.sfpkg)</h3>
+            <p data-i18n="wiki.export.export.p1">Quando il progetto è completo, puoi esportarlo come file <code>.sfpkg</code>. Questo è un archivio ZIP contenente:</p>
+            <ul>
+              <li><code>story.json</code> — tutti i dati del progetto (post, commenti, transizioni, profili)</li>
+              <li><code>assets/gameplay/</code> — le immagini del progetto in formato WebP</li>
+              <li><code>_manifest</code> — metadati del pacchetto</li>
+            </ul>
+            <p data-i18n="wiki.export.export.p2">Il file <code>.sfpkg</code> può essere importato nell'app mobile Timeline Breaker Rewind da qualsiasi giocatore.</p>
+
+            <h3 data-i18n="wiki.export.import.title">Importa (.sfpkg)</h3>
+            <p data-i18n="wiki.export.import.p1">Dalla Dashboard, clicca <strong>Importa</strong> e seleziona un file <code>.sfpkg</code>. Story Forge estrarrà il contenuto in una nuova cartella e lo aprirà nell'editor.</p>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.export.tip.title">Suggerimento</strong> — <span data-i18n="wiki.export.tip.text">Puoi importare pacchetti di altri utenti per continuare o modificare i loro progetti. È un ottimo modo per imparare o collaborare.</span>
+            </div>
+
+            <div class="wiki-tip">
+              <strong data-i18n="wiki.export.tip2.title">Prima di esportare</strong> — <span data-i18n="wiki.export.tip2.text">Esegui sempre il Validatore prima di esportare. Un pacchetto con errori (post senza immagine, transizioni rotte) può bloccare il giocatore. Correggi tutti gli errori rossi prima di creare il file .sfpkg.</span>
+            </div>
+          </section>
+
+          <!-- ===== FAQ ===== -->
+          <section id="faq">
+            <h2 data-i18n="wiki.faq.title">FAQ e Risoluzione Problemi</h2>
+
+            <h3 data-i18n="wiki.faq.q1.title">L'editor non si avvia / SmartScreen blocca</h3>
+            <p data-i18n="wiki.faq.q1.ans">Windows potrebbe bloccare l'avvio perché l'eseguibile non è firmato digitalmente. Clicca <strong>Ulteriori informazioni</strong> poi <strong>Esegui comunque</strong>. È normale per build di test.</p>
+
+            <h3 data-i18n="wiki.faq.q2.title">Le traduzioni non funzionano</h3>
+            <p data-i18n="wiki.faq.q2.ans">Verifica che nel progetto siano state aggiunte almeno 2 lingue. Le traduzioni richiedono una lingua sorgente e almeno una lingua target. Controlla che il sync sia stato eseguito dalla sezione Validazione.</p>
+
+            <h3 data-i18n="wiki.faq.q3.title">Il simulatore mostra errori</h3>
+            <p data-i18n="wiki.faq.q3.ans">Il simulatore è in fase <strong>early stage</strong>. Se riscontri problemi, usa lo Storyboard per verificare i collegamenti. Il simulatore è ancora in fase di test.</p>
+
+            <h3 data-i18n="wiki.faq.q4.title">Come aggiungo una nuova lingua al progetto?</h3>
+            <p data-i18n="wiki.faq.q4.ans">Nel selettore lingua in alto nell'editor, clicca <strong>+</strong> per aggiungere una nuova lingua. Il sistema di mirror rigido copierà automaticamente la struttura dalla lingua sorgente.</p>
+
+            <h3 data-i18n="wiki.faq.q5.title">Cosa succede se cancello un post a cui other post puntano?</h3>
+            <p data-i18n="wiki.faq.q5.ans">Le transizioni che puntavano al post eliminato rimarranno nel JSON ma saranno "rotte" (puntano a un ID inesistente). Il Validatore segnalerà questi errori. Puoi correggerli manualmente o usare il pulsante "Sincronizza e ripara".</p>
+
+            <h3 data-i18n="wiki.faq.q6.title">L'LLM non risponde / errore di connessione</h3>
+            <p data-i18n="wiki.faq.q6.ans">Verifica le impostazioni del provider: URL base, API key e nome del modello. Usa il pulsante <strong>Test connessione</strong> per diagnosticare. Se usi Ollama/LM Studio locale, assicurati che il server sia in esecuzione.</p>
+          </section>
+
+          <p style="margin-top:40px"><a href="index.html#editor" data-i18n="wiki.back">← Torna alla home</a></p>
+
+        </div><!-- /wiki-body -->
+      </div><!-- /wiki-layout -->
     </div>
   </main>
 
@@ -87,8 +952,12 @@
     </div>
   </footer>
 
+  <a href="#" class="wiki-back-top" id="backTop" title="Torna in alto">↑</a>
+
   <div class="toast" id="toast" role="status"></div>
 
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/wiki-i18n.js"></script>
+  <script src="assets/js/wiki.js"></script>
 </body>
 </html>

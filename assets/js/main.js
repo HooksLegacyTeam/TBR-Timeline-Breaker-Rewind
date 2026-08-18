@@ -211,6 +211,9 @@
     }
   };
 
+  /* Esposto per wiki-i18n.js (caricato dopo) */
+  window.I18N = I18N;
+
   let currentLang = "it";
 
   function detectLang() {
