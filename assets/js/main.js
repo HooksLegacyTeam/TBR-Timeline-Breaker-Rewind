@@ -288,7 +288,7 @@
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
       if (I18N[key] && I18N[key][lang]) {
-        el.textContent = I18N[key][lang];
+        el.innerHTML = I18N[key][lang];
       }
     });
 
