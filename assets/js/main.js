@@ -13,6 +13,7 @@
     "nav.guideApp": { it: "Guida App", en: "App Guide" },
     "nav.guideEditor": { it: "Guida Editor", en: "Editor Guide" },
     "nav.how": { it: "Come funziona", en: "How it works" },
+    "nav.privacy": { it: "Privacy", en: "Privacy" },
 
     /* ---- hero ---- */
     "hero.badge": { it: "Ultima versione disponibile", en: "Latest version available" },
@@ -208,7 +209,55 @@
     "toast.release": {
       it: "La release non è ancora pubblicata su GitHub. Riprova più tardi.",
       en: "The release is not published on GitHub yet. Try again later."
-    }
+    },
+
+    /* ---- privacy / GDPR ---- */
+    "nav.home": { it: "Home", en: "Home" },
+    "privacy.breadcrumb.home": { it: "Home", en: "Home" },
+    "privacy.breadcrumb.privacy": { it: "Privacy e GDPR", en: "Privacy & GDPR" },
+    "privacy.title": { it: "Informativa sulla Privacy e Cookie Policy", en: "Privacy Policy and Cookie Policy" },
+    "privacy.sub": { it: "Ultimo aggiornamento: 19 agosto 2026", en: "Last updated: August 19, 2026" },
+    "privacy.controller.title": { it: "1. Titolare del Trattamento", en: "1. Data Controller" },
+    "privacy.controller.p1": { it: "Hooks Legacy Team", en: "Hooks Legacy Team" },
+    "privacy.controller.p2": { it: "Contatto: GitHub Issues", en: "Contact: GitHub Issues" },
+    "privacy.data.title": { it: "2. Dati Raccolti", en: "2. Data Collected" },
+    "privacy.data.intro": { it: "Questo sito raccoglie dati minimi e strettamente necessari al funzionamento:", en: "This site collects minimal data strictly necessary for its operation:" },
+    "privacy.data.localStorage.title": { it: "localStorage", en: "localStorage" },
+    "privacy.data.localStorage.p1": { it: "Il sito utilizza il localStorage del browser per memorizzare una sola preferenza:", en: "The site uses the browser localStorage to store a single preference:" },
+    "privacy.data.fonts.title": { it: "Google Fonts", en: "Google Fonts" },
+    "privacy.data.fonts.p1": { it: "Il sito utilizza Google Fonts per caricare i font Inter e Space Grotesk. Quando visiti il sito, il tuo indirizzo IP e le informazioni del browser vengono inviati ai server di Google per consegnare i font.", en: "The site uses Google Fonts to load the Inter and Space Grotesk fonts. When you visit the site, your IP address and browser information are sent to Google servers to deliver the fonts." },
+    "privacy.data.noCookies.title": { it: "Cookie", en: "Cookies" },
+    "privacy.data.noCookies.p1": { it: "Il sito non utilizza cookie di alcun tipo: niente cookie di tracciamento, niente cookie analitici, niente cookie di terze parti.", en: "The site does not use cookies of any kind: no tracking cookies, no analytics cookies, no third-party cookies." },
+    "privacy.data.noAnalytics.title": { it: "Analytics e Tracciamento", en: "Analytics and Tracking" },
+    "privacy.data.noAnalytics.p1": { it: "Il sito non utilizza Google Analytics, Facebook Pixel, o qualsiasi altro sistema di tracciamento o analisi delle visite.", en: "The site does not use Google Analytics, Facebook Pixel, or any other tracking or analytics system." },
+    "privacy.data.noForms.title": { it: "Formulari", en: "Forms" },
+    "privacy.data.noForms.p1": { it: "Il sito non contiene formulari di contatto, registrazione, login o invio di dati personali. Non vengono raccolte email, nomi, numeri di telefono o altre informazioni personali.", en: "The site does not contain contact, registration, login or personal data submission forms. No emails, names, phone numbers or other personal information are collected." },
+    "privacy.purpose.title": { it: "3. Finalita del Trattamento", en: "3. Purpose of Processing" },
+    "privacy.purpose.p1": { it: "I dati minimi raccolti vengono utilizzati esclusivamente per:", en: "The minimal data collected is used exclusively for:" },
+    "privacy.purpose.1": { it: "Ricordare la preferenza linguistica — il valore tbr-lang in localStorage serve a mantenere la lingua scelta tra le visite.", en: "Remember language preference — the tbr-lang value in localStorage serves to maintain the chosen language between visits." },
+    "privacy.purpose.2": { it: "Consegnare i font — Google Fonts serve a visualizzare correttamente la tipografia del sito.", en: "Deliver fonts — Google Fonts serves to correctly display the site typography." },
+    "privacy.legal.title": { it: "4. Base Giuridica del Trattamento", en: "4. Legal Basis for Processing" },
+    "privacy.legal.p1": { it: "Il trattamento si basa sul consenso legittimo dell'interessato (art. 6 par. 1 lettera a del Regolamento UE 2016/679) per quanto riguarda Google Fonts, e sul legittimo interesse (art. 6 par. 1 lettera f) per il localStorage strettamente necessario al funzionamento.", en: "Processing is based on the data subject's legitimate consent (Art. 6(1)(a) of EU Regulation 2016/679) for Google Fonts, and on legitimate interest (Art. 6(1)(f)) for localStorage strictly necessary for operation." },
+    "privacy.rights.title": { it: "5. Tuoi Diritti (GDPR)", en: "5. Your Rights (GDPR)" },
+    "privacy.rights.intro": { it: "In conformita al Regolamento Europeo sulla Protezione dei Dati Personali (GDPR - Reg. UE 2016/679), hai diritto a:", en: "In accordance with the European General Data Protection Regulation (GDPR - Reg. EU 2016/679), you have the right to:" },
+    "privacy.rights.1": { it: "Accesso (art. 15) — sapere se trattiamo i tuoi dati e ottenere una copia.", en: "Access (Art. 15) — know whether we process your data and obtain a copy." },
+    "privacy.rights.2": { it: "Rettifica (art. 16) — correggere dati inesatti.", en: "Rectification (Art. 16) — correct inaccurate data." },
+    "privacy.rights.3": { it: "Cancellazione (art. 17) — richiedere la cancellazione dei tuoi dati.", en: "Erasure (Art. 17) — request deletion of your data." },
+    "privacy.rights.4": { it: "Limitazione (art. 18) — limitare il trattamento.", en: "Restriction (Art. 18) — restrict processing." },
+    "privacy.rights.5": { it: "Portabilita (art. 20) — ricevere i tuoi dati in formato strutturato.", en: "Portability (Art. 20) — receive your data in a structured format." },
+    "privacy.rights.6": { it: "Opposizione (art. 21) — opporsi al trattamento.", en: "Objection (Art. 21) — object to processing." },
+    "privacy.rights.7": { it: "Reclamo (art. 77) — presentare reclamo al Garante per la Protezione dei Dati Personali.", en: "Complaint (Art. 77) — lodge a complaint with the Data Protection Authority." },
+    "privacy.retention.title": { it: "6. Periodo di Conservazione", en: "6. Data Retention Period" },
+    "privacy.retention.p1": { it: "Il dato tbr-lang viene conservato nel tuo browser fino a quando non lo cancelli manualmente, o fino a quando non cancelli i dati del sito dal tuo browser. Non esiste alcun server che conserva i tuoi dati.", en: "The tbr-lang data is stored in your browser until you manually delete it, or until you clear the site data from your browser. There is no server that stores your data." },
+    "privacy.transfer.title": { it: "7. Trasferimento Dati Extra-UE", en: "7. Extra-EU Data Transfer" },
+    "privacy.transfer.p1": { it: "Google Fonts puo comportare il trasferimento dell'indirizzo IP verso server situati negli Stati Uniti. Google ha aderito al framework EU-US Data Privacy Framework (Decisione di adeguatezza del 10 luglio 2023).", en: "Google Fonts may involve transferring your IP address to servers located in the United States. Google has adhered to the EU-US Data Privacy Framework (Adequacy Decision of July 10, 2023)." },
+    "privacy.minors.title": { it: "8. Minori", en: "8. Minors" },
+    "privacy.minors.p1": { it: "Il sito non e diretto a minori di 16 anni e non raccoglie intenzionalmente dati personali di minori. Se ritieni che un minore abbia fornito dati personali, contattaci immediatamente.", en: "The site is not directed to minors under 16 and does not intentionally collect personal data from minors. If you believe a minor has provided personal data, contact us immediately." },
+    "privacy.changes.title": { it: "9. Modifiche alla Presente Informativa", en: "9. Changes to This Policy" },
+    "privacy.changes.p1": { it: "Ci riserviamo il diritto di aggiornare questa informativa. Le modifiche verranno pubblicate su questa pagina con la data di ultimo aggiornamento in alto.", en: "We reserve the right to update this policy. Changes will be published on this page with the last updated date at the top." },
+    "privacy.contact.title": { it: "10. Contatti", en: "10. Contacts" },
+    "privacy.contact.p1": { it: "Per qualsiasi domanda relativa alla privacy o per esercitare i tuoi diritti, apri un'issue su GitHub.", en: "For any privacy-related questions or to exercise your rights, open an issue on GitHub." },
+    "privacy.back": { it: "Torna alla home", en: "Back to home" }
   };
 
   /* Esposto per wiki-i18n.js (caricato dopo) */
