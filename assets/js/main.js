@@ -223,11 +223,11 @@
     "privacy.data.title": { it: "2. Dati Raccolti", en: "2. Data Collected" },
     "privacy.data.intro": { it: "Questo sito raccoglie dati minimi e strettamente necessari al funzionamento:", en: "This site collects minimal data strictly necessary for its operation:" },
     "privacy.data.localStorage.title": { it: "localStorage", en: "localStorage" },
-    "privacy.data.localStorage.p1": { it: "Il sito utilizza il localStorage del browser per memorizzare una sola preferenza:", en: "The site uses the browser localStorage to store a single preference:" },
+    "privacy.data.localStorage.p1": { it: "Il sito utilizza il localStorage del browser per memorizzare due preferenze:", en: "The site uses the browser localStorage to store two preferences:" },
     "privacy.data.fonts.title": { it: "Google Fonts", en: "Google Fonts" },
     "privacy.data.fonts.p1": { it: "Il sito utilizza Google Fonts per caricare i font Inter e Space Grotesk. Quando visiti il sito, il tuo indirizzo IP e le informazioni del browser vengono inviati ai server di Google per consegnare i font.", en: "The site uses Google Fonts to load the Inter and Space Grotesk fonts. When you visit the site, your IP address and browser information are sent to Google servers to deliver the fonts." },
     "privacy.data.noCookies.title": { it: "Cookie", en: "Cookies" },
-    "privacy.data.noCookies.p1": { it: "Il sito non utilizza cookie di alcun tipo: niente cookie di tracciamento, niente cookie analitici, niente cookie di terze parti.", en: "The site does not use cookies of any kind: no tracking cookies, no analytics cookies, no third-party cookies." },
+    "privacy.data.noCookies.p1": { it: "Il sito non utilizza cookie di tracciamento ne cookie analitici. L'unico dato memorizzato nel browser e il consenso cookie (tbr-cookie-consent), che serve a ricordare se hai accettato o rifiutato l'uso di Google Fonts.", en: "The site does not use tracking cookies or analytics cookies. The only data stored in the browser is the cookie consent (tbr-cookie-consent), which remembers whether you accepted or declined Google Fonts." },
     "privacy.data.noAnalytics.title": { it: "Analytics e Tracciamento", en: "Analytics and Tracking" },
     "privacy.data.noAnalytics.p1": { it: "Il sito non utilizza Google Analytics, Facebook Pixel, o qualsiasi altro sistema di tracciamento o analisi delle visite.", en: "The site does not use Google Analytics, Facebook Pixel, or any other tracking or analytics system." },
     "privacy.data.noForms.title": { it: "Formulari", en: "Forms" },
@@ -237,7 +237,7 @@
     "privacy.purpose.1": { it: "Ricordare la preferenza linguistica — il valore tbr-lang in localStorage serve a mantenere la lingua scelta tra le visite.", en: "Remember language preference — the tbr-lang value in localStorage serves to maintain the chosen language between visits." },
     "privacy.purpose.2": { it: "Consegnare i font — Google Fonts serve a visualizzare correttamente la tipografia del sito.", en: "Deliver fonts — Google Fonts serves to correctly display the site typography." },
     "privacy.legal.title": { it: "4. Base Giuridica del Trattamento", en: "4. Legal Basis for Processing" },
-    "privacy.legal.p1": { it: "Il trattamento si basa sul consenso legittimo dell'interessato (art. 6 par. 1 lettera a del Regolamento UE 2016/679) per quanto riguarda Google Fonts, e sul legittimo interesse (art. 6 par. 1 lettera f) per il localStorage strettamente necessario al funzionamento.", en: "Processing is based on the data subject's legitimate consent (Art. 6(1)(a) of EU Regulation 2016/679) for Google Fonts, and on legitimate interest (Art. 6(1)(f)) for localStorage strictly necessary for operation." },
+    "privacy.legal.p1": { it: "Il trattamento si basa sul consenso dell'interessato (art. 6 par. 1 lettera a del Regolamento UE 2016/679) per quanto riguarda Google Fonts, espresso tramite il banner di consenso cookie. Il localStorage strettamente necessario al funzionamento (lingua e consenso) si basa sul legittimo interesse (art. 6 par. 1 lettera f).", en: "Processing is based on the data subject's consent (Art. 6(1)(a) of EU Regulation 2016/679) for Google Fonts, given via the cookie consent banner. localStorage strictly necessary for operation (language and consent) is based on legitimate interest (Art. 6(1)(f))." },
     "privacy.rights.title": { it: "5. Tuoi Diritti (GDPR)", en: "5. Your Rights (GDPR)" },
     "privacy.rights.intro": { it: "In conformita al Regolamento Europeo sulla Protezione dei Dati Personali (GDPR - Reg. UE 2016/679), hai diritto a:", en: "In accordance with the European General Data Protection Regulation (GDPR - Reg. EU 2016/679), you have the right to:" },
     "privacy.rights.1": { it: "Accesso (art. 15) — sapere se trattiamo i tuoi dati e ottenere una copia.", en: "Access (Art. 15) — know whether we process your data and obtain a copy." },
@@ -248,7 +248,7 @@
     "privacy.rights.6": { it: "Opposizione (art. 21) — opporsi al trattamento.", en: "Objection (Art. 21) — object to processing." },
     "privacy.rights.7": { it: "Reclamo (art. 77) — presentare reclamo al Garante per la Protezione dei Dati Personali.", en: "Complaint (Art. 77) — lodge a complaint with the Data Protection Authority." },
     "privacy.retention.title": { it: "6. Periodo di Conservazione", en: "6. Data Retention Period" },
-    "privacy.retention.p1": { it: "Il dato tbr-lang viene conservato nel tuo browser fino a quando non lo cancelli manualmente, o fino a quando non cancelli i dati del sito dal tuo browser. Non esiste alcun server che conserva i tuoi dati.", en: "The tbr-lang data is stored in your browser until you manually delete it, or until you clear the site data from your browser. There is no server that stores your data." },
+    "privacy.retention.p1": { it: "I dati tbr-lang e tbr-cookie-consent vengono conservati nel tuo browser fino a quando non li cancelli manualmente, o fino a quando non cancelli i dati del sito dal tuo browser. Non esiste alcun server che conserva i tuoi dati.", en: "The tbr-lang and tbr-cookie-consent data is stored in your browser until you manually delete it, or until you clear the site data from your browser. There is no server that stores your data." },
     "privacy.transfer.title": { it: "7. Trasferimento Dati Extra-UE", en: "7. Extra-EU Data Transfer" },
     "privacy.transfer.p1": { it: "Google Fonts puo comportare il trasferimento dell'indirizzo IP verso server situati negli Stati Uniti. Google ha aderito al framework EU-US Data Privacy Framework (Decisione di adeguatezza del 10 luglio 2023).", en: "Google Fonts may involve transferring your IP address to servers located in the United States. Google has adhered to the EU-US Data Privacy Framework (Adequacy Decision of July 10, 2023)." },
     "privacy.minors.title": { it: "8. Minori", en: "8. Minors" },
@@ -257,7 +257,22 @@
     "privacy.changes.p1": { it: "Ci riserviamo il diritto di aggiornare questa informativa. Le modifiche verranno pubblicate su questa pagina con la data di ultimo aggiornamento in alto.", en: "We reserve the right to update this policy. Changes will be published on this page with the last updated date at the top." },
     "privacy.contact.title": { it: "10. Contatti", en: "10. Contacts" },
     "privacy.contact.p1": { it: "Per qualsiasi domanda relativa alla privacy o per esercitare i tuoi diritti, apri un'issue su GitHub.", en: "For any privacy-related questions or to exercise your rights, open an issue on GitHub." },
-    "privacy.back": { it: "Torna alla home", en: "Back to home" }
+    "privacy.back": { it: "Torna alla home", en: "Back to home" },
+
+    /* ---- cookie banner ---- */
+    "cookie.title": { it: "Questo sito utilizza Google Fonts", en: "This site uses Google Fonts" },
+    "cookie.text": {
+      it: "Il sito utilizza Google Fonts (Inter, Space Grotesk) per caricare la tipografia. Quando visiti il sito, il tuo indirizzo IP viene inviato ai server di Google. Nessun altro cookie o tracciamento e utilizzato.",
+      en: "The site uses Google Fonts (Inter, Space Grotesk) to load typography. When you visit the site, your IP address is sent to Google servers. No other cookies or tracking are used."
+    },
+    "cookie.accept": { it: "Accetta", en: "Accept" },
+    "cookie.decline": { it: "Rifiuta", en: "Decline" },
+    "cookie.settings": { it: "Impostazioni", en: "Settings" },
+    "cookie.detail.title": { it: "Dettagli", en: "Details" },
+    "cookie.detail.fonts": { it: "<strong>Google Fonts</strong> — font Inter e Space Grotesk. Invia il tuo IP a Google.", en: "<strong>Google Fonts</strong> — Inter and Space Grotesk fonts. Sends your IP to Google." },
+    "cookie.detail.local": { it: "<strong>localStorage</strong> — preferenza lingua e consenso cookie. Nessun dato lascia il tuo browser.", en: "<strong>localStorage</strong> — language preference and cookie consent. No data leaves your browser." },
+    "cookie.detail.no": { it: "Nessun analytics, nessun tracciamento, nessun altro cookie.", en: "No analytics, no tracking, no other cookies." },
+    "cookie.manage": { it: "Gestisci consenso", en: "Manage consent" }
   };
 
   /* Esposto per wiki-i18n.js (caricato dopo) */
@@ -448,6 +463,100 @@
     show(0);
   }
 
+  /* ---- cookie consent ---- */
+  var CONSENT_KEY = "tbr-cookie-consent";
+  var CONSENT_VALUE = "accepted";
+  var DECLINED_VALUE = "declined";
+
+  function getConsent() {
+    try { return localStorage.getItem(CONSENT_KEY); } catch (e) { return null; }
+  }
+
+  function setConsent(val) {
+    try { localStorage.setItem(CONSENT_KEY, val); } catch (e) {}
+  }
+
+  function loadGoogleFonts() {
+    if (document.getElementById("gfonts-consent")) return;
+    var pre1 = document.createElement("link");
+    pre1.rel = "preconnect";
+    pre1.href = "https://fonts.googleapis.com";
+    document.head.appendChild(pre1);
+    var pre2 = document.createElement("link");
+    pre2.rel = "preconnect";
+    pre2.href = "https://fonts.gstatic.com";
+    pre2.crossOrigin = "anonymous";
+    document.head.appendChild(pre2);
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap";
+    link.id = "gfonts-consent";
+    document.head.appendChild(link);
+  }
+
+  function removeGoogleFonts() {
+    var el = document.getElementById("gfonts-consent");
+    if (el) el.remove();
+    document.querySelectorAll('link[href*="fonts.googleapis.com"], link[href*="fonts.gstatic.com"]').forEach(function(l) { l.remove(); });
+  }
+
+  function buildCookieBanner() {
+    if (document.getElementById("cookie-banner")) return;
+    var banner = document.createElement("div");
+    banner.id = "cookie-banner";
+    banner.className = "cookie-banner";
+    banner.innerHTML =
+      '<div class="cookie-banner-inner">' +
+        '<div class="cookie-banner-text">' +
+          '<strong data-i18n="cookie.title">' + (I18N["cookie.title"][currentLang]) + '</strong>' +
+          '<span data-i18n="cookie.text">' + (I18N["cookie.text"][currentLang]) + '</span>' +
+          '<button type="button" class="cookie-detail-toggle" id="cookieDetailToggle" data-i18n="cookie.detail.title">' + (I18N["cookie.detail.title"][currentLang]) + '</button>' +
+          '<div class="cookie-details" id="cookieDetails" style="display:none">' +
+            '<ul>' +
+              '<li data-i18n="cookie.detail.fonts">' + (I18N["cookie.detail.fonts"][currentLang]) + '</li>' +
+              '<li data-i18n="cookie.detail.local">' + (I18N["cookie.detail.local"][currentLang]) + '</li>' +
+              '<li data-i18n="cookie.detail.no">' + (I18N["cookie.detail.no"][currentLang]) + '</li>' +
+            '</ul>' +
+          '</div>' +
+        '</div>' +
+        '<div class="cookie-banner-actions">' +
+          '<button type="button" class="btn cookie-accept" id="cookieAccept" data-i18n="cookie.accept">' + (I18N["cookie.accept"][currentLang]) + '</button>' +
+          '<button type="button" class="btn cookie-decline" id="cookieDecline" data-i18n="cookie.decline">' + (I18N["cookie.decline"][currentLang]) + '</button>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(banner);
+
+    document.getElementById("cookieAccept").addEventListener("click", function () {
+      setConsent(CONSENT_VALUE);
+      loadGoogleFonts();
+      banner.remove();
+    });
+    document.getElementById("cookieDecline").addEventListener("click", function () {
+      setConsent(DECLINED_VALUE);
+      removeGoogleFonts();
+      banner.remove();
+    });
+    document.getElementById("cookieDetailToggle").addEventListener("click", function () {
+      var det = document.getElementById("cookieDetails");
+      det.style.display = det.style.display === "none" ? "block" : "none";
+    });
+  }
+
+  function showManageConsentButton() {
+    if (document.getElementById("manageConsentBtn")) return;
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.id = "manageConsentBtn";
+    btn.className = "manage-consent-btn";
+    btn.textContent = I18N["cookie.manage"][currentLang] || "Manage consent";
+    btn.addEventListener("click", function () {
+      setConsent(null);
+      removeGoogleFonts();
+      buildCookieBanner();
+    });
+    document.body.appendChild(btn);
+  }
+
   /* ---- init ---- */
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".lang-switch button").forEach(function (btn) {
@@ -457,6 +566,19 @@
     });
 
     applyLang(detectLang());
+
+    /* cookie consent */
+    var consent = getConsent();
+    if (consent === CONSENT_VALUE) {
+      loadGoogleFonts();
+      showManageConsentButton();
+    } else if (consent === DECLINED_VALUE) {
+      removeGoogleFonts();
+      showManageConsentButton();
+    } else {
+      buildCookieBanner();
+    }
+
     loadVersions();
     initGallery();
   });

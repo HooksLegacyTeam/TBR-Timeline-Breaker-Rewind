@@ -6,9 +6,7 @@
   <title>Privacy e GDPR · Timeline Breaker Rewind</title>
   <meta name="description" content="Dichiarazione sulla privacy e conformita GDPR per il sito Timeline Breaker Rewind.">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -61,16 +59,17 @@
           <p data-i18n="privacy.data.intro">Questo sito raccoglie dati minimi e strettamente necessari al funzionamento:</p>
 
           <h3 data-i18n="privacy.data.localStorage.title">localStorage</h3>
-          <p data-i18n="privacy.data.localStorage.p1">Il sito utilizza il <code>localStorage</code> del browser per memorizzare <strong>una sola preferenza</strong>:</p>
+          <p data-i18n="privacy.data.localStorage.p1">Il sito utilizza il <code>localStorage</code> del browser per memorizzare <strong>due preferenze</strong>:</p>
           <ul>
             <li><code>tbr-lang</code> — lingua selezionata dall'utente (IT o EN). Questo dato resta esclusivamente sul tuo dispositivo e non viene mai trasmesso a nessun server.</li>
+            <li><code>tbr-cookie-consent</code> — stato del consenso cookie (accettato o rifiutato). Serve a non mostrare nuovamente il banner.</li>
           </ul>
 
           <h3 data-i18n="privacy.data.fonts.title">Google Fonts</h3>
           <p data-i18n="privacy.data.fonts.p1">Il sito utilizza Google Fonts per caricare i font Inter e Space Grotesk. Quando visiti il sito, il tuo indirizzo IP e le informazioni del browser vengono inviati ai server di Google per consegnare i font. Per maggiori informazioni consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Informativa sulla Privacy di Google</a>.</p>
 
           <h3 data-i18n="privacy.data.noCookies.title">Cookie</h3>
-          <p data-i18n="privacy.data.noCookies.p1">Il sito <strong>non utilizza cookie</strong> di alcun tipo: niente cookie di tracciamento, niente cookie analitici, niente cookie di terze parti.</p>
+          <p data-i18n="privacy.data.noCookies.p1">Il sito <strong>non utilizza cookie di tracciamento</strong> ne cookie analitici. L'unico dato memorizzato nel browser e il consenso cookie (<code>tbr-cookie-consent</code>), che serve a ricordare se hai accettato o rifiutato l'uso di Google Fonts.</p>
 
           <h3 data-i18n="privacy.data.noAnalytics.title">Analytics e Tracciamento</h3>
           <p data-i18n="privacy.data.noAnalytics.p1">Il sito <strong>non utilizza</strong> Google Analytics, Facebook Pixel, o qualsiasi altro sistema di tracciamento o analisi delle visite.</p>
@@ -92,7 +91,7 @@
         <!-- 4. Base giuridica -->
         <section id="legal-basis">
           <h2 data-i18n="privacy.legal.title">4. Base Giuridica del Trattamento</h2>
-          <p data-i18n="privacy.legal.p1">Il trattamento si basa sul <strong>consenso legittimo dell'interessato</strong> (art. 6 par. 1 lettera a del Regolamento UE 2016/679) per quanto riguarda Google Fonts, e sul <strong>legittimo interesse</strong> (art. 6 par. 1 lettera f) per il localStorage strettamente necessario al funzionamento.</p>
+          <p data-i18n="privacy.legal.p1">Il trattamento si basa sul <strong>consenso dell'interessato</strong> (art. 6 par. 1 lettera a del Regolamento UE 2016/679) per quanto riguarda Google Fonts, espresso tramite il banner di consenso cookie. Il localStorage strettamente necessario al funzionamento (lingua e consenso) si basa sul <strong>legittimo interesse</strong> (art. 6 par. 1 lettera f).</p>
         </section>
 
         <!-- 5. Diritti -->
@@ -113,7 +112,7 @@
         <!-- 6. Conservazione -->
         <section id="retention">
           <h2 data-i18n="privacy.retention.title">6. Periodo di Conservazione</h2>
-          <p data-i18n="privacy.retention.p1">Il dato <code>tbr-lang</code> viene conservato nel tuo browser fino a quando non lo cancelli manualmente, o fino a quando non cancelli i dati del sito dal tuo browser. Non esiste alcun server che conserva i tuoi dati.</p>
+          <p data-i18n="privacy.retention.p1">I dati <code>tbr-lang</code> e <code>tbr-cookie-consent</code> vengono conservati nel tuo browser fino a quando non li cancelli manualmente, o fino a quando non cancelli i dati del sito dal tuo browser. Non esiste alcun server che conserva i tuoi dati.</p>
         </section>
 
         <!-- 7. Trasferimento -->
