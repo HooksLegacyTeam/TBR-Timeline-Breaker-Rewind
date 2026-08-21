@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aggiornamenti · Timeline Breaker Rewind</title>
+  <meta name="description" content="Cronologia degli aggiornamenti di Timeline Breaker Rewind e Story Forge.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .changelog-entry { margin-bottom: 48px; }
+    .changelog-entry:last-child { margin-bottom: 0; }
+    .cl-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; flex-wrap: wrap; }
+    .cl-version { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--text); }
+    .cl-date { font-size: 0.88rem; color: var(--muted); }
+    .cl-tag { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .cl-tag-app { background: rgba(34,211,238,0.15); color: var(--cyan); }
+    .cl-tag-editor { background: rgba(251,191,36,0.15); color: var(--amber); }
+    .cl-tag-both { background: rgba(139,92,246,0.15); color: var(--violet); }
+    .cl-section-title { font-size: 0.82rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin: 18px 0 8px; }
+    .cl-list { list-style: none; padding: 0; margin: 0; }
+    .cl-list li { position: relative; padding-left: 18px; margin-bottom: 6px; font-size: 0.92rem; color: var(--text); line-height: 1.5; }
+    .cl-list li::before { content: ""; position: absolute; left: 0; top: 8px; width: 6px; height: 6px; border-radius: 50%; background: var(--brand-seed); }
+    .cl-divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">&#x231B;</span>
+        <span>TBR</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html#app" data-i18n="nav.app">App</a></li>
+          <li><a href="index.html#editor" data-i18n="nav.editor">Editor</a></li>
+          <li><a href="guide-app.html" data-i18n="nav.guideApp">Guida App</a></li>
+          <li><a href="guide-editor.html" data-i18n="nav.guideEditor">Guida Editor</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="it">IT</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-section">
+      <div class="container">
+
+        <nav class="breadcrumb">
+          <a href="index.html" data-i18n="privacy.breadcrumb.home">Home</a>
+          <span aria-hidden="true">/</span>
+          <span data-i18n="cl.breadcrumb">Aggiornamenti</span>
+        </nav>
+
+        <h1 data-i18n="cl.title">Cronologia Aggiornamenti</h1>
+        <p class="page-sub" data-i18n="cl.sub">Tutte le versioni rilasciate di Timeline Breaker Rewind e Story Forge.</p>
+
+        <!-- v1.18.0 -->
+        <div class="changelog-entry">
+          <div class="cl-header">
+            <span class="cl-version">v1.18.0</span>
+            <span class="cl-date">21 agosto 2026</span>
+            <span class="cl-tag cl-tag-both" data-i18n="cl.tag.both">App + Editor</span>
+          </div>
+
+          <h4 class="cl-section-title" data-i18n="cl.app">App</h4>
+          <ul class="cl-list">
+            <li data-i18n="cl.v118.app.1">Supporto multilingue per 5 lingue: italiano, inglese, spagnolo, tedesco e francese</li>
+            <li data-i18n="cl.v118.app.2">Bugfix per DeadEnd</li>
+            <li data-i18n="cl.v118.app.3">Bugfix commenti al ritorno alla home e continuando la storia</li>
+          </ul>
+
+          <h4 class="cl-section-title" data-i18n="cl.editor">Editor</h4>
+          <ul class="cl-list">
+            <li data-i18n="cl.v118.ed.1">Bugfix sulla traduzione automatica</li>
+            <li data-i18n="cl.v118.ed.2">Storyboard: nuove maniglie per movimento frecce e area infinita per posizionare le schede</li>
+            <li data-i18n="cl.v118.ed.3">Foto: le nuove foto vengono importate con tag NEW ed e possibile usare il filtro per vedere solo quelle</li>
+            <li data-i18n="cl.v118.ed.4">I post permettono piu dead end che vengono anche evidenziati in grigio</li>
+            <li data-i18n="cl.v118.ed.5">Fix grafici e di posizionamento dei campi di input</li>
+          </ul>
+        </div>
+
+        <hr class="cl-divider">
+
+        <!-- v1.17.0 -->
+        <div class="changelog-entry">
+          <div class="cl-header">
+            <span class="cl-version">v1.17.0</span>
+            <span class="cl-date">20 agosto 2026</span>
+            <span class="cl-tag cl-tag-both" data-i18n="cl.tag.both">App + Editor</span>
+          </div>
+
+          <ul class="cl-list">
+            <li data-i18n="cl.v117.1">Aggiornamento generale di stabilita e prestazioni</li>
+          </ul>
+        </div>
+
+        <hr class="cl-divider">
+
+        <!-- v1.16.0 -->
+        <div class="changelog-entry">
+          <div class="cl-header">
+            <span class="cl-version">v1.16.0</span>
+            <span class="cl-date">18 agosto 2026</span>
+            <span class="cl-tag cl-tag-app" data-i18n="cl.tag.app">App</span>
+          </div>
+
+          <ul class="cl-list">
+            <li data-i18n="cl.v116.1">Prima release pubblica dell'app Timeline Breaker Rewind</li>
+            <li data-i18n="cl.v116.2">Feed social interattivo con post, commenti e transizioni</li>
+            <li data-i18n="cl.v116.3">Funzione Rewind per tornare indietro nel tempo</li>
+            <li data-i18n="cl.v116.4">Importazione storie .sfpkg</li>
+          </ul>
+        </div>
+
+        <hr class="cl-divider">
+
+        <!-- v1.0.0 editor -->
+        <div class="changelog-entry">
+          <div class="cl-header">
+            <span class="cl-version">v1.0.0</span>
+            <span class="cl-date">18 agosto 2026</span>
+            <span class="cl-tag cl-tag-editor" data-i18n="cl.tag.editor">Editor</span>
+          </div>
+
+          <ul class="cl-list">
+            <li data-i18n="cl.v100.1">Prima release dell'editor Story Forge</li>
+            <li data-i18n="cl.v100.2">Editor di post, commenti e transizioni con grafo delle storie</li>
+            <li data-i18n="cl.v100.3">Storyboard interattivo con drag and drop</li>
+            <li data-i18n="cl.v100.4">Workbench LLM per bozze assistite da AI</li>
+            <li data-i18n="cl.v100.5">Esportazione pacchetti .sfpkg</li>
+          </ul>
+        </div>
+
+        <a href="index.html" class="guide-back" data-i18n="privacy.back">Torna alla home</a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">&copy; 2026 Hooks Legacy Team &middot; Timeline Breaker Rewind e Story Forge</span>
+        <span><a href="privacy.html" data-i18n="nav.privacy">Privacy</a> &middot; v1.0</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

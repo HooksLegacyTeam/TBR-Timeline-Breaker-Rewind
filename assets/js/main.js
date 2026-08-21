@@ -272,7 +272,36 @@
     "cookie.detail.fonts": { it: "<strong>Google Fonts</strong> — font Inter e Space Grotesk. Invia il tuo IP a Google.", en: "<strong>Google Fonts</strong> — Inter and Space Grotesk fonts. Sends your IP to Google." },
     "cookie.detail.local": { it: "<strong>localStorage</strong> — preferenza lingua e consenso cookie. Nessun dato lascia il tuo browser.", en: "<strong>localStorage</strong> — language preference and cookie consent. No data leaves your browser." },
     "cookie.detail.no": { it: "Nessun analytics, nessun tracciamento, nessun altro cookie.", en: "No analytics, no tracking, no other cookies." },
-    "cookie.manage": { it: "Gestisci consenso", en: "Manage consent" }
+    "cookie.manage": { it: "Gestisci consenso", en: "Manage consent" },
+
+    /* ---- changelog ---- */
+    "cl.breadcrumb": { it: "Aggiornamenti", en: "Updates" },
+    "cl.title": { it: "Cronologia Aggiornamenti", en: "Update History" },
+    "cl.sub": { it: "Tutte le versioni rilasciate di Timeline Breaker Rewind e Story Forge.", en: "All released versions of Timeline Breaker Rewind and Story Forge." },
+    "cl.tag.both": { it: "App + Editor", en: "App + Editor" },
+    "cl.tag.app": { it: "App", en: "App" },
+    "cl.tag.editor": { it: "Editor", en: "Editor" },
+    "cl.app": { it: "App", en: "App" },
+    "cl.editor": { it: "Editor", en: "Editor" },
+    "cl.v118.app.1": { it: "Supporto multilingue per 5 lingue: italiano, inglese, spagnolo, tedesco e francese", en: "Multilingual support for 5 languages: Italian, English, Spanish, German and French" },
+    "cl.v118.app.2": { it: "Bugfix per DeadEnd", en: "Bugfix for DeadEnd" },
+    "cl.v118.app.3": { it: "Bugfix commenti al ritorno alla home e continuando la storia", en: "Bugfix comments when returning to home and continuing the story" },
+    "cl.v118.ed.1": { it: "Bugfix sulla traduzione automatica", en: "Bugfix on automatic translation" },
+    "cl.v118.ed.2": { it: "Storyboard: nuove maniglie per movimento frecce e area infinita per posizionare le schede", en: "Storyboard: new arrow handles and infinite area for card placement" },
+    "cl.v118.ed.3": { it: "Foto: le nuove foto vengono importate con tag NEW ed e possibile usare il filtro per vedere solo quelle", en: "Photos: new photos imported with NEW tag and dedicated filter" },
+    "cl.v118.ed.4": { it: "I post permettono piu dead end che vengono anche evidenziati in grigio", en: "Posts support multiple dead ends highlighted in gray" },
+    "cl.v118.ed.5": { it: "Fix grafici e di posizionamento dei campi di input", en: "Graphics and input field positioning fixes" },
+    "cl.v117.1": { it: "Aggiornamento generale di stabilita e prestazioni", en: "General stability and performance update" },
+    "cl.v116.1": { it: "Prima release pubblica dell'app Timeline Breaker Rewind", en: "First public release of the Timeline Breaker Rewind app" },
+    "cl.v116.2": { it: "Feed social interattivo con post, commenti e transizioni", en: "Interactive social feed with posts, comments and transitions" },
+    "cl.v116.3": { it: "Funzione Rewind per tornare indietro nel tempo", en: "Rewind function to go back in time" },
+    "cl.v116.4": { it: "Importazione storie .sfpkg", en: ".sfpkg story import" },
+    "cl.v100.1": { it: "Prima release dell'editor Story Forge", en: "First release of the Story Forge editor" },
+    "cl.v100.2": { it: "Editor di post, commenti e transizioni con grafo delle storie", en: "Post, comments and transitions editor with a story graph" },
+    "cl.v100.3": { it: "Storyboard interattivo con drag and drop", en: "Interactive storyboard with drag and drop" },
+    "cl.v100.4": { it: "Workbench LLM per bozze assistite da AI", en: "LLM Workbench for AI-assisted drafts" },
+    "cl.v100.5": { it: "Esportazione pacchetti .sfpkg", en: ".sfpkg pack export" },
+    "nav.changelog": { it: "Aggiornamenti", en: "Updates" }
   };
 
   /* Esposto per wiki-i18n.js (caricato dopo) */

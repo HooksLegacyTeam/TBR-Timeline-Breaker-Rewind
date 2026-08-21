@@ -12,18 +12,18 @@
                                },
                    "features":  {
                                     "it":  [
-                                               "Bugfix traduzione automatica",
-                                               "Storyboard: maniglie frecce e area infinita per posizionare le schede",
-                                               "Foto: nuove foto contrassegnate con NEW e filtro dedicato",
-                                               "Post: supporto per piu dead end evidenziati in grigio",
-                                               "Fix grafici e di posizionamento dei campi di input"
+                                               "Crea post narrativi con immagini, didascalie, hashtag e commenti",
+                                               "Costruisci alberi di scelte con transizioni, trappole e keyword",
+                                               "Progetta profili social con avatar, handle e bio per i personaggi",
+                                               "Traduci le storie in 5 lingue con assistenza LLM e Machine Translation",
+                                               "Esporta pacchetti .sfpkg pronti da importare e giocare sull'app mobile"
                                            ],
                                     "en":  [
-                                               "Bugfix on automatic translation",
-                                               "Storyboard: new arrow handles and infinite area for card placement",
-                                               "Photos: new photos marked with NEW and dedicated filter",
-                                               "Posts: support for multiple dead ends highlighted in gray",
-                                               "Graphics and input field positioning fixes"
+                                               "Create narrative posts with images, captions, hashtags and comments",
+                                               "Build choice trees with transitions, traps and search zone keywords",
+                                               "Design social profiles with avatar, handle and bio for characters",
+                                               "Translate stories in 5 languages with LLM and Machine Translation assistance",
+                                               "Export .sfpkg packages ready to import and play on the mobile app"
                                            ]
                                 }
                },
@@ -39,14 +39,18 @@
                             },
                 "features":  {
                                  "it":  [
-                                            "Supporto multilingue per 5 lingue: IT, EN, ES, DE, FR",
-                                            "Bugfix per DeadEnd",
-                                            "Bugfix commenti al ritorno alla home e continuando la storia"
+                                            "Scorri il feed e scopri gli eventi nascosti nella timeline",
+                                            "Commenta per cambiare il destino della storia",
+                                            "Riavvolgi il tempo e riprova le tue scelte",
+                                            "Importa storie .sfpkg create con Story Forge dai tuoi amici",
+                                            "Gioca in 5 lingue: italiano, inglese, spagnolo, tedesco e francese"
                                         ],
                                  "en":  [
-                                            "Multilingual support for 5 languages: IT, EN, ES, DE, FR",
-                                            "Bugfix for DeadEnd",
-                                            "Bugfix comments when returning to home and continuing the story"
+                                            "Scroll the feed and discover hidden events in the timeline",
+                                            "Comment to change the story's fate",
+                                            "Rewind time and retry your choices",
+                                            "Import .sfpkg stories created with Story Forge from friends",
+                                            "Play in 5 languages: Italian, English, Spanish, German and French"
                                         ]
                              }
             }
