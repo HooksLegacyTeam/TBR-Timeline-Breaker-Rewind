@@ -25,6 +25,7 @@
     },
     "hero.cta.app": { it: "Scarica l'App", en: "Download the App" },
     "hero.cta.editor": { it: "Scarica l'Editor", en: "Download the Editor" },
+    "hero.cta.play": { it: "Gioca Ora", en: "Play Now" },
     "hero.meta": {
       it: "App Android · Editor Windows · Solo download ufficiali",
       en: "Android App · Windows Editor · Official downloads only"
@@ -49,6 +50,7 @@
       en: "Installable on Android 7.0 or later. You can receive .sfpkg stories from your friends."
     },
     "app.guideLink": { it: "Guida all'installazione", en: "Installation guide" },
+    "app.playLink": { it: "Gioca Ora nel browser", en: "Play Now in browser" },
     "app.android": { it: "Android", en: "Android" },
 
     /* ---- editor ---- */

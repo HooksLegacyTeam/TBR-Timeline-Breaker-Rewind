@@ -1,0 +1,1244 @@
+{
+  "id": "luna_voyager",
+  "name": "Luna",
+  "handle": "@luna.voyager",
+  "bio": "Viajero del tiempo. Estoy publicando mi primera aventura aquí, una publicación a la vez.",
+  "followers": 1247,
+  "adventureTitle": "la primera aventura",
+  "avatar": "Luna_Post001.webp",
+  "avatarScale": 2.225540928492468,
+  "avatarOffsetX": -129.66223023450317,
+  "avatarOffsetY": -121.32855192075431,
+  "posts": [
+    {
+      "id": "Start",
+      "image": "Luna_Post001.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-02T09:15:00",
+      "caption": "¡Esta es mi nueva cuenta! La máquina del tiempo está casi lista y mañana comienza mi primera aventura. ¿Estás listo? 💫 ¡Presiona CORAZÓN para mostrarme tu apoyo!",
+      "hashtags": [
+        "#nuevacuenta",
+        "#aventura",
+        "#viajeeneltiempo"
+      ],
+      "views": 342,
+      "likes": 12,
+      "comments": [
+        {
+          "author": "Marco",
+          "handle": "@marco_f",
+          "text": "¡Qué hermoso! Por fin algo nuevo aquí ✨",
+          "likes": 3,
+          "publishedAt": "2026-08-02T09:17:00"
+        },
+        {
+          "author": "Giulia",
+          "handle": "@giulia.v",
+          "text": "Pero ¿existe realmente la máquina del tiempo? 😅",
+          "likes": 1,
+          "publishedAt": "2026-08-02T09:19:00"
+        },
+        {
+          "author": "Leo",
+          "handle": "@leo.trip",
+          "text": "Seguido inmediatamente, ¡no puedo esperar!",
+          "likes": 2,
+          "publishedAt": "2026-08-02T09:22:00"
+        },
+        {
+          "author": "Giovanni",
+          "handle": "@cronista_43",
+          "text": "Pero... ¿nadie se dio cuenta de que tal vez el auto está averiado?",
+          "likes": 73,
+          "publishedAt": "2026-08-02T10:15:00"
+        },
+        {
+          "author": "Anna",
+          "handle": "@_annax3",
+          "text": "¿La máquina del tiempo en Instagram? ¡Estás loco! 😂",
+          "likes": 3,
+          "publishedAt": "2026-08-02T11:18:00"
+        },
+        {
+          "author": "Roberto",
+          "handle": "@robertodreams",
+          "text": "¡Hola Luna! ¿Cuándo nos darás un tutorial? 🤓",
+          "likes": 2,
+          "publishedAt": "2026-08-02T11:22:00"
+        },
+        {
+          "author": "Sara",
+          "handle": "@sarabellissima",
+          "text": "¿Estás seguro de que funciona? ¡No quiero terminar en el pasado! 😱",
+          "likes": 4,
+          "publishedAt": "2026-08-02T11:30:00"
+        }
+      ],
+      "transitions": [
+        {
+          "type": "fakeLike",
+          "label": "¡Maldita sea, estás hablando! Todo es falso... ¿eres estúpido?",
+          "reply": "Métete en tus propios asuntos...",
+          "fakeCommentId": "GiuliaPero ¿existe realmente la máquina del tiempo? 😅"
+        },
+        {
+          "type": "fakeLike",
+          "label": "¿Dices? ¿Dónde puedes verlo?",
+          "reply": "Intente hacer zoom en la imagen en el lado izquierdo del auto... Podría estar equivocado, pero...",
+          "fakeCommentId": "GiovanniPero... ¿nadie se dio cuenta de que tal vez el auto está averiado?"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "Hay algo mal aquí",
+          "comment": "Hay algo mal aquí",
+          "label": "¡Vi un problema en la foto!",
+          "reply": "¡Oye, tienes razón! Hay un problema con un par de tubos... mira bien la primera foto. 😱",
+          "to": "TimeM_Cables",
+          "x": 0.16887417218543058,
+          "y": 0.2375275938189846,
+          "w": 0.20309050772626938,
+          "h": 0.1995584988962472
+        },
+        {
+          "id": "z2",
+          "name": "de monitores",
+          "comment": "... Monitorear...espero que Linux",
+          "label": "¿Pero estás usando sistemas Linux?",
+          "reply": "No, es un sistema patentado multiagente basado en computadoras cuánticas dobles.",
+          "x": 0.8461538461538461,
+          "y": 0.3163461538461539,
+          "w": 0.1466346153846153,
+          "h": 0.1826923076923077,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "name": "¿Para qué es esto?",
+          "comment": "¿Para qué es? ¿Tecla de voltios?",
+          "label": "¿Para qué sirve ese monitor de arriba?",
+          "reply": "Es la famosa Volt Key (TM), genera un campo electromagnético infinito que abre un....bla, bla, bla...",
+          "x": 0.40865384615384615,
+          "y": 0.027884615384615438,
+          "w": 0.19951923076923073,
+          "h": 0.1096153846153846,
+          "isDistractor": true
+        },
+        {
+          "id": "z4",
+          "name": "¿Quién eres?",
+          "comment": "Pero tú... ¿quién eres?",
+          "label": "Pero tú... ¿quién serías? ¿Cuáles son tus calificaciones?",
+          "reply": "Soy Luna... por el momento no puedo decirte nada más.",
+          "x": 0.46634615384615363,
+          "y": 0.3971153846153847,
+          "w": 0.3221153846153847,
+          "h": 0.28269230769230763,
+          "isDistractor": true
+        },
+        {
+          "id": "z5",
+          "name": "Instrumentación misteriosa",
+          "comment": "¿Contadores de tiempo?",
+          "label": "Esa instrumentación de la izquierda... ¿para qué sirve?",
+          "reply": "Son medidores de espacio-tiempo, te permiten buscar zonas menos sujetas a la distorsión temporal para moverte en el tiempo.",
+          "x": 0.016826923076923146,
+          "y": 0.37596153846153857,
+          "w": 0.08894230769230742,
+          "h": 0.1461538461538462,
+          "isDistractor": true
+        }
+      ],
+      "likeGoesTo": "Explosion"
+    },
+    {
+      "id": "Explosion",
+      "image": "Gemini_Generated_Image_5hqho15hqho15hqh.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-03T11:05:57",
+      "caption": "Hubo un problema con el auto...\nEl viaje se pospone... ¿Alguien HA AMPLIADO LA FOTO y ha encontrado el problema?",
+      "hashtags": [
+        "#fracasoépico"
+      ],
+      "views": 500,
+      "comments": [
+        {
+          "author": "Marco",
+          "handle": "@marco_tech",
+          "text": "¡¿Pero estás bien?! Ese humo de la foto no augura nada bueno... 😱",
+          "likes": 15,
+          "publishedAt": "2026-08-03T12:09:57"
+        },
+        {
+          "author": "Giada",
+          "handle": "@giada_sky",
+          "text": "¡Nooo, estaba tan lista para viajar por primera vez! ¿Qué pasó?",
+          "likes": 8,
+          "publishedAt": "2026-08-03T12:14:57"
+        },
+        {
+          "author": "Luca",
+          "handle": "@luca_fail",
+          "text": "El hashtag #epicfail ya lo dice todo yo diría... ¡lo importante es que estés entero!",
+          "likes": 22,
+          "publishedAt": "2026-08-03T12:20:57"
+        },
+        {
+          "author": "Sara",
+          "handle": "@sara_m",
+          "text": "Mire atentamente los cables y gafas de la foto, ¡en mi opinión, la falla está ahí!",
+          "likes": 5,
+          "publishedAt": "2026-08-03T12:30:57"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "Lentes",
+          "comment": "Están realmente rotos...",
+          "x": 0.5463576158940396,
+          "y": 0.3576158940397351,
+          "w": 0.2207505518763797,
+          "h": 0.16423841059602656,
+          "isDistractor": true
+        },
+        {
+          "id": "z2",
+          "name": "Problema",
+          "comment": "El problema parece haber estado aquí.",
+          "x": 0.15562913907284792,
+          "y": 0.34613686534216337,
+          "w": 0.10375275938189849,
+          "h": 0.07593818984547457
+        }
+      ],
+      "likeGoesTo": "TimeM_Cables"
+    },
+    {
+      "id": "TimeM_Cables",
+      "image": "Gemini_Generated_Image_3xu6e03xu6e03xu6.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-03T12:19:57",
+      "caption": "¡Ey! ¡Hubo un problema con un par de tubos!\n¡Por suerte mis seguidores se dieron cuenta AL HACER ZOOM EN LA FOTO!",
+      "hashtags": [
+        "#viajeeneltiempo",
+        "#inspirado"
+      ],
+      "views": 50,
+      "likes": 5,
+      "comments": [
+        {
+          "author": "Federico",
+          "handle": "@fede_diy",
+          "text": "¡Afortunadamente era solo un cable suelto! Ya estábamos todos ansiosos 😅",
+          "likes": 14,
+          "publishedAt": "2026-08-03T13:23:57"
+        },
+        {
+          "author": "Valentina",
+          "handle": "@vale_v",
+          "text": "¡Tus seguidores nunca decepcionan! ¡Pero ahora tenga cuidado antes de volver a encender todo!",
+          "likes": 9,
+          "publishedAt": "2026-08-03T13:27:57"
+        },
+        {
+          "author": "Andrea",
+          "handle": "@andrea_tech",
+          "text": "Parece un daño menor, pero no te arriesgues... ¡un golpe ahí y es el fin! ⚡",
+          "likes": 21,
+          "publishedAt": "2026-08-03T13:33:57"
+        },
+        {
+          "author": "Camilla",
+          "handle": "@cami_star",
+          "text": "¡Excelente! Ahora que ha encontrado el problema, ¿realmente comenzará el envío? 🚀",
+          "likes": 6,
+          "publishedAt": "2026-08-03T13:42:57"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "el problema",
+          "comment": "Aquí estaba el problema...",
+          "label": "No parece dificil de reparar",
+          "reply": "Sí, una simple distracción y estaba tostado. Ya vemos...",
+          "x": 0.4293598233995585,
+          "y": 0.18101545253863136,
+          "w": 0.22737306843267097,
+          "h": 0.24194260485651217
+        }
+      ],
+      "likeGoesTo": "Ritenta"
+    },
+    {
+      "id": "Ritenta",
+      "image": "Luna_Post001.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-03T18:43:57",
+      "caption": "Ok chicos... ¡tomó menos de lo esperado! ¡Lo arreglé!\n¿Lo intentamos?",
+      "hashtags": [
+        "#limpiar",
+        "#1890",
+        "#elfuturo"
+      ],
+      "views": 9712,
+      "likes": 2026,
+      "comments": [
+        {
+          "author": "Marco B.",
+          "handle": "@marcob_99",
+          "text": "¿Ya te has instalado? ¡Eres un genio! Crucemos los dedos esta vez 🤞🏻",
+          "likes": 12,
+          "publishedAt": "2026-08-03T19:45:57"
+        },
+        {
+          "author": "Elena Rossi",
+          "handle": "@elena_rossi",
+          "text": "¡Esperemos que no vuelva a explotar! ¡Sí, vayamos a 1890! 🚀",
+          "likes": 8,
+          "publishedAt": "2026-08-03T19:50:57"
+        },
+        {
+          "author": "Luca Tech",
+          "handle": "@luca_tech",
+          "text": "¡Muy listo! Esta vez estamos todos contigo, ¡cuéntanos cómo te va! ✨",
+          "likes": 15,
+          "publishedAt": "2026-08-03T19:56:57"
+        },
+        {
+          "author": "Sonia",
+          "handle": "@sonia_v",
+          "text": "Menos mal que esas tuberías fueron fáciles de arreglar... ¡Ve y rockea! 🔥",
+          "likes": 5,
+          "publishedAt": "2026-08-03T20:05:57"
+        }
+      ],
+      "imageScale": 1.5,
+      "imageOffsetX": 40.0,
+      "imageOffsetY": 50.0,
+      "likeGoesTo": "Display_TimeM"
+    },
+    {
+      "id": "Display_TimeM",
+      "image": "Gemini_Generated_Image_kr7g5akr7g5akr7g.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-03T19:16:57",
+      "caption": "¡Estoy en camino a 1895! La máquina del tiempo está lista y pronto me iré. ¿Qué opinas?",
+      "hashtags": [
+        "#1895",
+        "#limpiar",
+        "#elfuturo"
+      ],
+      "views": 518,
+      "likes": 28,
+      "comments": [
+        {
+          "author": "Elena",
+          "handle": "@elena.b",
+          "text": "1895... ¡la Bella Époque! Pura envidia 😍",
+          "likes": 5,
+          "publishedAt": "2026-08-03T20:16:57"
+        },
+        {
+          "author": "Sofia",
+          "handle": "@sofia.a",
+          "text": "¿Conseguirás no cruzarte con tu pasado? 😱",
+          "likes": 4,
+          "publishedAt": "2026-08-03T20:16:57"
+        },
+        {
+          "author": "Paolo",
+          "handle": "@paolo.tec",
+          "text": "Comprueba que no hay nada extraño en la fecha...",
+          "likes": 2,
+          "publishedAt": "2026-08-03T21:16:57"
+        }
+      ],
+      "transitions": [
+        {
+          "type": "fakeLike",
+          "label": "También me parece que la fecha es incorrecta...",
+          "reply": "... ¿tal vez invirtió los LED?",
+          "keywords": [
+            "coraggio",
+            "wow",
+            "bello",
+            "avanti",
+            "figo",
+            "grande",
+            "epico",
+            "forte",
+            "incredibile"
+          ],
+          "fakeCommentId": "PaoloComprueba que no hay nada extraño en la fecha..."
+        }
+      ],
+      "likeGoesTo": "Vicolo"
+    },
+    {
+      "id": "Vicolo",
+      "image": "Vicolo_Arrivo.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-04T01:09:57",
+      "caption": "he llegado. A ver si funciona Internet... Os mando una foto de lo que veo.\nEstoy en un callejón...",
+      "hashtags": [
+        "#aventura",
+        "#enigma"
+      ],
+      "views": 2965,
+      "likes": 2305,
+      "comments": [
+        {
+          "author": "Marco Rossi",
+          "handle": "@marcorossi",
+          "text": "¡La conexión allí ya es un milagro! ¿Pero dónde estás exactamente?",
+          "likes": 5,
+          "publishedAt": "2026-08-04T02:13:57"
+        },
+        {
+          "author": "Giulia B.",
+          "handle": "@giulia_b",
+          "text": "Lo siento, pero ese tipo de hombro me pone increíblemente ansiosa... ¡cuidado! 😱",
+          "likes": 12,
+          "publishedAt": "2026-08-04T02:18:57"
+        },
+        {
+          "author": "Matteo",
+          "handle": "@matteo_v",
+          "text": "¡Parece el escenario de una película de terror! ¿Pero estás seguro de que es una buena idea?",
+          "likes": 3,
+          "publishedAt": "2026-08-04T02:24:57"
+        },
+        {
+          "author": "Elena",
+          "handle": "@elena_art",
+          "text": "Esa ropa del fondo es muy rara, parece cosa vintage...",
+          "likes": 8,
+          "publishedAt": "2026-08-04T02:33:57"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "hombre desde atrás",
+          "comment": "¿Pero quién es ese?",
+          "label": "¿Pero lo sabes?",
+          "reply": "No... fue en el callejón. No creo que me haya visto...",
+          "x": 0.5618101545253863,
+          "y": 0.5183222958057395,
+          "w": 0.07064017660044164,
+          "h": 0.15717439293598234,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "name": "Ropa",
+          "comment": "Hay algunos trapos...",
+          "label": "...creo que deberías cambiarte de ropa",
+          "reply": "...¿estás sugiriendo que use esas...cosas?",
+          "to": "Ricambio_Vestiti",
+          "x": 0.3052884615384616,
+          "y": 0.6836538461538463,
+          "w": 0.10817307692307687,
+          "h": 0.053846153846153766
+        },
+        {
+          "id": "z5",
+          "name": "trae",
+          "comment": "Una puerta...",
+          "label": "¿Vamos a vigilar la puerta?",
+          "reply": "¿Quizás sea una taberna?",
+          "to": "Porta2_Vicolo_NoVestiti",
+          "x": 0.14459161147902894,
+          "y": 0.4158940397350994,
+          "w": 0.1125827814569535,
+          "h": 0.43443708609271525,
+          "isDistractor": true
+        }
+      ],
+      "likeGoesTo": "Scarpe_Camice"
+    },
+    {
+      "id": "Scarpe_Camice",
+      "image": "Scarpe_Close_Up.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-04T05:07:57",
+      "caption": "Maldita sea… no pensé que tendría que llegar con la ropa adecuada… ¿y ahora qué?",
+      "hashtags": [
+        "#emergencia",
+        "#trajes",
+        "#elección"
+      ],
+      "views": 14020,
+      "likes": 1611,
+      "comments": [
+        {
+          "author": "Elena V.",
+          "handle": "@elena_vibe",
+          "text": "¿Pero cómo te vestiste, perdón? Mira que enseguida te pillan así jajaja",
+          "likes": 12,
+          "publishedAt": "2026-08-04T06:13:57"
+        },
+        {
+          "author": "Marco T.",
+          "handle": "@marcot_real",
+          "text": "Será mejor que arregles algo inmediatamente, de lo contrario no pasarás desapercibido 👀",
+          "likes": 3,
+          "publishedAt": "2026-08-04T06:21:57"
+        },
+        {
+          "author": "Giulia B.",
+          "handle": "@giulietta_b",
+          "text": "Ya veo que reina la improvisación 😂 ¡busca un cambio rápido!",
+          "likes": 8,
+          "publishedAt": "2026-08-04T06:31:57"
+        },
+        {
+          "author": "Sara N.",
+          "handle": "@sarana",
+          "text": "Ten cuidado, si te ven vestido así harás sospechar a todos...",
+          "likes": 12,
+          "publishedAt": "2026-08-04T07:34:57"
+        },
+        {
+          "author": "Davide 88",
+          "handle": "@davide_88",
+          "text": "¿Pero hablas en serio? En 1895 con esa ropa te arrestaron por perturbar el orden 💀",
+          "likes": 8,
+          "publishedAt": "2026-08-04T07:38:57"
+        },
+        {
+          "author": "Chiara Lux",
+          "handle": "@chiaralux",
+          "text": "Es decir, ¿retrocediste en el tiempo y no pensaste en el vestuario? realmente brillante",
+          "likes": 5,
+          "publishedAt": "2026-08-04T07:46:57"
+        },
+        {
+          "author": "Simona F.",
+          "handle": "@simof",
+          "text": "Busca inmediatamente una costurera o una tienda vintage de la época, ¡date prisa!",
+          "likes": 4,
+          "publishedAt": "2026-08-04T08:06:57"
+        },
+        {
+          "author": "Alex Time",
+          "handle": "@alxtime",
+          "text": "¿Pero entonces el Wi-Fi funciona bien en 1895? De todos modos sigo pensando en ropa 😂",
+          "likes": 7,
+          "publishedAt": "2026-08-04T08:19:57"
+        },
+        {
+          "author": "Giorgio P.",
+          "handle": "@giorgiop",
+          "text": "Date la vuelta antes de que alguien te atrape, ¡escucha!",
+          "likes": 3,
+          "publishedAt": "2026-08-04T08:33:57"
+        },
+        {
+          "author": "Martina K.",
+          "handle": "@martik",
+          "text": "Demasiado moderno, te notan incluso a un kilómetro de distancia con ese atuendo.",
+          "likes": 6,
+          "publishedAt": "2026-08-04T08:49:57"
+        },
+        {
+          "author": "Luca M.",
+          "handle": "@lucam_99",
+          "text": "¿Pero en qué año exacto terminaste? Tal vez podría haber algo alrededor antes de que te muevas del callejón.",
+          "likes": 10,
+          "publishedAt": "2026-08-04T09:09:57"
+        },
+        {
+          "author": "Rob Tech",
+          "handle": "@robtech",
+          "text": "Ansiedad total para ti en estos momentos 📉 ¡cúbrete con algo!",
+          "likes": 9,
+          "publishedAt": "2026-08-04T09:29:57"
+        }
+      ],
+      "transitions": [
+        {
+          "type": "fakeLike",
+          "to": "Ricambio_Vestiti",
+          "label": "Yo también creo eso",
+          "reply": "T",
+          "fakeCommentId": "Marco T.Será mejor que arregles algo inmediatamente, de lo contrario no pasarás desapercibido 👀"
+        },
+        {
+          "type": "fakeLike",
+          "to": "Ricambio_Vestiti",
+          "label": "I",
+          "reply": "V",
+          "fakeCommentId": "Giorgio P.Date la vuelta antes de que alguien te atrape, ¡escucha!"
+        },
+        {
+          "type": "fakeLike",
+          "label": "L'idea del negozio o di una sarta... non è mica male",
+          "reply": "Vedo una sola porta ... ma non sembra di un sarto",
+          "fakeCommentId": "Chiara LuxEs decir, ¿retrocediste en el tiempo y no pensaste en el vestuario? realmente brillante"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "Ropa",
+          "comment": "Algo de ropa sucia y sucia....",
+          "label": "Creo... esa ropa...",
+          "reply": "...me enferma solo pensarlo...",
+          "to": "Ricambio_Vestiti",
+          "x": 0.2682119205298014,
+          "y": 0.43002207505518764,
+          "w": 0.10375275938189854,
+          "h": 0.04944812362030915
+        },
+        {
+          "id": "z2",
+          "name": "trae",
+          "comment": "una puerta",
+          "label": "Echemos un vistazo a la puerta.",
+          "reply": "...si pero poco a poco...",
+          "to": "Porta1_Vicolo_ConVestiti",
+          "x": 0.1379690949227373,
+          "y": 0.12980132450331128,
+          "w": 0.0949227373068435,
+          "h": 0.3249448123620309,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "name": "Salir del callejón",
+          "comment": "Podría salir del callejón...",
+          "label": "Tengo una propuesta... intenta salir del callejón como estás.",
+          "reply": "No estoy seguro... pero tal vez al menos hasta la esquina...",
+          "x": 0.4381898454746138,
+          "y": 0.29403973509933784,
+          "w": 0.10154525386313451,
+          "h": 0.18543046357615894
+        }
+      ]
+    },
+    {
+      "id": "Ricambio_Vestiti",
+      "image": "Vestiti_Sporchi.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-04T11:06:57",
+      "caption": "Y aquí tienes una preciosa selección de ropa de segunda mano, como nueva, solo para ti. Empecemos la subasta...",
+      "hashtags": [
+        "#1895",
+        "#1890",
+        "#viajeeneltiempo"
+      ],
+      "views": 4961,
+      "likes": 917,
+      "comments": [
+        {
+          "author": "Elena V.",
+          "handle": "@elena_vntg",
+          "text": "Aparte de Vinted, ¡esto es vintage extremo! Pero parecen llenos de pulgas 😅",
+          "likes": 14,
+          "publishedAt": "2026-08-04T12:08:57"
+        },
+        {
+          "author": "Leo",
+          "handle": "@leo_geek",
+          "text": "Cuidado con lo que vistes, la higiene a finales del siglo XIX era una opción total...",
+          "likes": 22,
+          "publishedAt": "2026-08-04T12:12:57"
+        },
+        {
+          "author": "Sara",
+          "handle": "@sara_m",
+          "text": "Por favor dime que no huelen como se ven en la pantalla 🤢",
+          "likes": 8,
+          "publishedAt": "2026-08-04T12:18:57"
+        },
+        {
+          "author": "Claudio",
+          "handle": "@claudietto",
+          "text": "Veo cosas dignas de un hospital... ¡elige con mucho cuidado!",
+          "likes": 19,
+          "publishedAt": "2026-08-04T12:27:57"
+        },
+        {
+          "author": "Marti",
+          "handle": "@martina_b",
+          "text": "Al menos te integrarás perfectamente con los transeúntes de 1895 😂",
+          "likes": 5,
+          "publishedAt": "2026-08-04T12:39:57"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "camisa vieja",
+          "comment": "Este apesta menos que los demás.",
+          "label": "Creo que el primero de la derecha está menos peor que los demás...",
+          "reply": "... esperemos... en mi opinión también...",
+          "to": "Vicolo_Choose",
+          "x": 0.6832229580573952,
+          "y": 0.3770419426048565,
+          "w": 0.22958057395143494,
+          "h": 0.3620309050772628
+        },
+        {
+          "id": "z2",
+          "name": "Vestido 1",
+          "comment": "Uf... pero ¿qué es...?",
+          "label": "Evita el tercero...",
+          "reply": "... ¡parecen ropa interior! Bleah... sucio también...",
+          "x": 0.5072115384615383,
+          "y": 0.36250000000000004,
+          "w": 0.11538461538461531,
+          "h": 0.22115384615384615,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "name": "vestido 2",
+          "comment": "Urgh....",
+          "label": "La segunda no me parece mala...",
+          "reply": "... sí para vendar las heridas de un zombie...",
+          "x": 0.3365384615384615,
+          "y": 0.3548076923076924,
+          "w": 0.12259615384615374,
+          "h": 0.2173076923076922,
+          "isDistractor": true
+        },
+        {
+          "id": "z4",
+          "name": "vestido 3",
+          "comment": "Azul jacinto... ¡cadáver!",
+          "label": "El primero de la izquierda tiene un color tranquilizador.",
+          "reply": "... moretón de la peste bubónica. Ni siquiera muerto...",
+          "x": 0.10096153846153853,
+          "y": 0.3894230769230769,
+          "w": 0.14903846153846123,
+          "h": 0.25769230769230783,
+          "isDistractor": true
+        }
+      ],
+      "likeGoesTo": "Vicolo_Choose"
+    },
+    {
+      "id": "Porta1_Vicolo_ConVestiti",
+      "image": "Porta.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-04T18:00:57",
+      "caption": "¿Qué piensas... debería intentar tocar la puerta?",
+      "hashtags": [
+        "#nuevacuenta",
+        "#futuro",
+        "#historia"
+      ],
+      "views": 7174,
+      "likes": 1454,
+      "comments": [
+        {
+          "author": "Marco",
+          "handle": "@marcolino99",
+          "text": "¿Estás loco? No sabes quién ni qué hay detrás, ¡olvídalo!",
+          "likes": 14,
+          "publishedAt": "2026-08-04T19:02:57"
+        },
+        {
+          "author": "Elena V.",
+          "handle": "@elena_v",
+          "text": "¡Toc, toc! La curiosidad me está comiendo vivo 👀",
+          "likes": 28,
+          "publishedAt": "2026-08-04T19:08:57"
+        },
+        {
+          "author": "Davide",
+          "handle": "@davide_rossi",
+          "text": "Pero ojo, comprueba primero si escuchas algún ruido procedente del interior.",
+          "likes": 9,
+          "publishedAt": "2026-08-04T19:16:57"
+        },
+        {
+          "author": "Sofia",
+          "handle": "@sofi_art",
+          "text": "Suena como el comienzo de una película de terror jaja ¡adelante y cuéntanoslo!",
+          "likes": 19,
+          "publishedAt": "2026-08-04T19:25:57"
+        },
+        {
+          "author": "Luca B.",
+          "handle": "@lucab_",
+          "text": "No me confiaría mucho... ese callejón provoca una ansiedad absurda 😬",
+          "likes": 6,
+          "publishedAt": "2026-08-04T19:36:57"
+        }
+      ],
+      "likeGoesTo": "ConVestiti_Seguace1"
+    },
+    {
+      "id": "ConVestiti_Seguace1",
+      "image": "Nano1.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T15:25:57",
+      "caption": "No lo creerías... pero un enano me dejó entrar.",
+      "hashtags": [
+        "#passato",
+        "#viajeeneltiempo",
+        "#fracasoépico"
+      ],
+      "views": 12813,
+      "likes": 2823,
+      "comments": [
+        {
+          "author": "Anna",
+          "handle": "@aurora_polare",
+          "text": "¿Pero le tomaste una foto en secreto?",
+          "likes": 12,
+          "publishedAt": "2026-08-05T18:25:57"
+        }
+      ],
+      "transitions": [
+        {
+          "type": "fakeLike",
+          "label": "Estaba pensando lo mismo",
+          "reply": "Debe firmar el",
+          "fakeCommentId": "Anna¿Pero le tomaste una foto en secreto?"
+        }
+      ]
+    },
+    {
+      "id": "Porta2_Vicolo_NoVestiti",
+      "image": "Porta.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T16:51:57",
+      "caption": "No creo que sea hora de llamar...alguien podría verme...",
+      "hashtags": [
+        "#enigma",
+        "#viaggio",
+        "#exploración",
+        "#secreto",
+        "#viajeeneltiempo"
+      ],
+      "views": 3115,
+      "likes": 812,
+      "comments": [
+        {
+          "author": "Martina",
+          "handle": "@il_tempo_fuggente",
+          "text": "¡Déjalo ser! ¿Estás loco?",
+          "likes": 29,
+          "publishedAt": "2026-08-05T22:51:57"
+        }
+      ],
+      "transitions": [
+        {
+          "type": "standard",
+          "to": "Scarpe_Camice",
+          "label": "En mi opinión no deberías tocar... mejor vuelve",
+          "reply": "Quizás tengas razón..."
+        },
+        {
+          "type": "standard",
+          "to": "DeadEnd1",
+          "label": "Toca a ver que pasa...",
+          "reply": "Ok, ¡veamos si hay alguien ahí!"
+        }
+      ]
+    },
+    {
+      "id": "DeadEnd1",
+      "image": "Dead1.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T17:50:57",
+      "caption": "Alguien te golpeó por detrás... estás muerto.",
+      "hashtags": [
+        "#viaggio",
+        "#historia",
+        "#futuro"
+      ],
+      "views": 9961,
+      "likes": 2004,
+      "imageScale": 1.3,
+      "imageOffsetX": -0.9142857142857057,
+      "imageOffsetY": 14.019047619047623
+    },
+    {
+      "id": "Vicolo_Choose",
+      "image": "Vicolo_choose.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T18:47:57",
+      "caption": "¿A dónde vamos? Tenemos una puerta, tal vez haya alguien y una salida al final...",
+      "hashtags": [
+        "#historia",
+        "#misterio",
+        "#tiempo"
+      ],
+      "views": 5434,
+      "likes": 1287,
+      "comments": [
+        {
+          "author": "Elena",
+          "handle": "@elena_mystery",
+          "text": "¡Llama a la puerta! Si hay alguien en 1895, ¡tengo muchas ganas de ver la reacción! 🚪",
+          "likes": 5,
+          "publishedAt": "2026-08-05T20:47:57"
+        },
+        {
+          "author": "Marco Rossi",
+          "handle": "@marco_r88",
+          "text": "¡La salida al final es mejor! Entrar al azar por una puerta desconocida no me parece seguro...",
+          "likes": 12,
+          "publishedAt": "2026-08-05T21:47:57"
+        },
+        {
+          "author": "Sara",
+          "handle": "@sara_vibes",
+          "text": "Por muy absurdo que tenga internet en 1895 😂 ¡Voto por la puerta!",
+          "likes": 4,
+          "publishedAt": "2026-08-05T23:47:57"
+        },
+        {
+          "author": "Giulia B.",
+          "handle": "@giulia_art",
+          "text": "¡Cuidado! ¡Mira primero a través de la cerradura si puedes ver algo!",
+          "likes": 8,
+          "publishedAt": "2026-08-05T23:47:57"
+        },
+        {
+          "author": "Alessandro",
+          "handle": "@ale_tech",
+          "text": "¡Ve al final del callejón! ¡Quizás salir a la calle principal y ver los carruajes! 🐴",
+          "likes": 15,
+          "publishedAt": "2026-08-05T23:47:57"
+        },
+        {
+          "author": "Luca Bernardi",
+          "handle": "@lucab_90",
+          "text": "¡La puerta absolutamente! Quizás haya una fiesta vintage secreta 🎉",
+          "likes": 9,
+          "publishedAt": "2026-08-06T00:47:57"
+        }
+      ],
+      "transitions": [
+        {
+          "type": "fakeLike",
+          "label": "¿Qué tal si revisamos la puerta?",
+          "reply": "Me acerco lentamente....",
+          "fakeCommentId": "Alessandro¡Ve al final del callejón! ¡Quizás salir a la calle principal y ver los carruajes! 🐴"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z2",
+          "name": "trae",
+          "comment": "¿Vamos a vigilar la puerta?",
+          "label": "¿Qué tal si revisamos la puerta?",
+          "reply": "Me acerco lentamente....",
+          "to": "Porta1_Vicolo_ConVestiti",
+          "x": 0.2615894039735101,
+          "y": 0.46181015452538643,
+          "w": 0.13686534216335544,
+          "h": 0.5381898454746136,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "name": "Fondo del callejón",
+          "comment": "Intentemos salir...",
+          "label": "Intentemos llegar al final del callejón.",
+          "reply": "Bueno... veamos",
+          "to": "Vista_Piazza_1",
+          "x": 0.8269230769230766,
+          "y": 0.47596153846153844,
+          "w": 0.17307692307692335,
+          "h": 0.41153846153846163,
+          "isDistractor": true
+        }
+      ]
+    },
+    {
+      "id": "Vista_Piazza_1",
+      "image": "Paris_001.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T20:33:57",
+      "caption": "¡La década de 1890 es MÁGICA! Llegué a la Belle Époque París, entre las luces de las primeras lámparas eléctricas. Alguien me reconoció... como si me estuvieran esperando. 🕰️",
+      "hashtags": [
+        "#1890",
+        "#bellepoque",
+        "#París"
+      ],
+      "views": 721,
+      "likes": 54,
+      "comments": [
+        {
+          "author": "Marco",
+          "handle": "@marco_f",
+          "text": "¡Mágico! Cuéntanos todo 💫",
+          "likes": 6,
+          "publishedAt": "2026-08-05T22:33:57"
+        },
+        {
+          "author": "Giulia",
+          "handle": "@giulia.v",
+          "text": "\"¿Alguien me reconoció\"? ¡Explícate! 😳",
+          "likes": 3,
+          "publishedAt": "2026-08-06T01:33:57"
+        }
+      ],
+      "likeGoesTo": "Vista_Piazza_2"
+    },
+    {
+      "id": "Vista_Piazza_2",
+      "image": "Paris_002.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T20:44:57",
+      "caption": "Vale... 1890 es hermoso, pero algo no cuadra. Un reloj marca una hora que no existe, y en la calle alguien me llamó por mi nombre. Este viaje esconde algo. 🕵️",
+      "hashtags": [
+        "#1890",
+        "#misterio",
+        "#París"
+      ],
+      "views": 688,
+      "likes": 47,
+      "comments": [
+        {
+          "author": "Sofia",
+          "handle": "@sofia.a",
+          "text": "¡Te dije! El tiempo te juega una mala pasada 😱",
+          "likes": 4,
+          "publishedAt": "2026-08-05T21:44:57"
+        },
+        {
+          "author": "Giulia",
+          "handle": "@_giulietta_",
+          "text": "Una hora que no existe... ¡qué inquietante!",
+          "likes": 3,
+          "publishedAt": "2026-08-05T21:44:57"
+        },
+        {
+          "author": "Marco",
+          "handle": "@marco_r",
+          "text": "¿Quizás haya una ruta de escape en 1890? 🚀",
+          "likes": 2,
+          "publishedAt": "2026-08-06T02:44:57"
+        },
+        {
+          "author": "Leo",
+          "handle": "@leo.trip",
+          "text": "Siento que estoy viendo un fantasma... 😷",
+          "likes": 2,
+          "publishedAt": "2026-08-06T02:44:57"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "Caballo",
+          "comment": "Oye... ¿es esto?",
+          "label": "Vi a alguien extraño, al final de la foto.",
+          "reply": "Él me está mirando,",
+          "to": "Uomo_sul_calesse",
+          "x": 0.360927152317881,
+          "y": 0.8732891832229581,
+          "w": 0.15011037527593807,
+          "h": 0.08123620309050761
+        },
+        {
+          "id": "z2",
+          "comment": "No me parece sospechoso...",
+          "x": 0.2152317880794702,
+          "y": 0.7125827814569536,
+          "w": 0.0772626931567329,
+          "h": 0.04415011037527605,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "comment": "No me parece sospechoso...",
+          "x": 0.05528846153846147,
+          "y": 0.6894230769230769,
+          "w": 0.06009615384615384,
+          "h": 0.04230769230769238,
+          "isDistractor": true
+        },
+        {
+          "id": "z4",
+          "comment": "No me parece sospechoso...",
+          "x": 0.10096153846153853,
+          "y": 0.6028846153846155,
+          "w": 0.04807692307692306,
+          "h": 0.038461538461538436,
+          "isDistractor": true
+        },
+        {
+          "id": "z5",
+          "comment": "No me parece sospechoso...",
+          "x": 0.6538461538461539,
+          "y": 0.7721153846153848,
+          "w": 0.060096153846153855,
+          "h": 0.05192307692307696,
+          "isDistractor": true
+        },
+        {
+          "id": "z6",
+          "comment": "No me parece sospechoso...",
+          "x": 0.8725961538461537,
+          "y": 0.7528846153846155,
+          "w": 0.033653846153846256,
+          "h": 0.04230769230769227,
+          "isDistractor": true
+        },
+        {
+          "id": "z7",
+          "comment": "No me parece sospechoso...",
+          "x": 0.2615894039735101,
+          "y": 0.5748344370860928,
+          "w": 0.0353200883002206,
+          "h": 0.038852097130242735,
+          "isDistractor": true
+        },
+        {
+          "id": "z8",
+          "comment": "No me parece sospechoso...",
+          "x": 0.5673076923076922,
+          "y": 0.6490384615384616,
+          "w": 0.033653846153846256,
+          "h": 0.04615384615384621,
+          "isDistractor": true
+        },
+        {
+          "id": "z9",
+          "name": "LUZ",
+          "comment": "¡Una hermosa farola!",
+          "x": 0.7932692307692307,
+          "y": 0.5721153846153846,
+          "w": 0.05528846153846145,
+          "h": 0.055769230769230904,
+          "isDistractor": true
+        }
+      ],
+      "likeGoesTo": "Uomo_sul_calesse"
+    },
+    {
+      "id": "Uomo_sul_calesse",
+      "image": "Paris_003.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T20:59:57",
+      "caption": "Ahora vi claramente: la máquina del tiempo NO estaba vacía. Una figura oscura se sentó detrás de mí en el camino. Alguien viaja conmigo... sin ser visto. 🔎",
+      "hashtags": [
+        "#1890",
+        "#secreto",
+        "#París"
+      ],
+      "views": 602,
+      "likes": 39,
+      "comments": [
+        {
+          "author": "Paolo",
+          "handle": "@paolo.tec",
+          "text": "Por eso me di cuenta... sigue mirando las fotos.",
+          "likes": 3,
+          "publishedAt": "2026-08-05T21:59:57"
+        },
+        {
+          "author": "Elena",
+          "handle": "@elena.b",
+          "text": "NO DIGO NADA PERO NO ME GUSTA 😨",
+          "likes": 7,
+          "publishedAt": "2026-08-05T21:59:57"
+        }
+      ],
+      "likeGoesTo": "Dettaglio_Uomo"
+    },
+    {
+      "id": "Dettaglio_Uomo",
+      "image": "Paris_003.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-05T22:03:57",
+      "caption": "Este es el hombre que creo que me está siguiendo.",
+      "hashtags": [
+        "#bellepoque",
+        "#exploración",
+        "#enigma",
+        "#viajeeneltiempo"
+      ],
+      "views": 1750,
+      "likes": 1834,
+      "comments": [
+        {
+          "author": "Elena Rossi",
+          "handle": "@elena_r",
+          "text": "creo que fue el mayordomo",
+          "likes": 14,
+          "publishedAt": "2026-08-05T23:03:57"
+        },
+        {
+          "author": "Marco",
+          "handle": "@marco_b",
+          "text": "¿Pero tiene un sombrero de copa en la cabeza? Seguro que parece un tipo turbio, ¡ten cuidado!",
+          "likes": 22,
+          "publishedAt": "2026-08-05T23:03:57"
+        },
+        {
+          "author": "Luca",
+          "handle": "@luca_time",
+          "text": "¡Hermano cambia de dirección inmediatamente! No me gusta nada como te mira fijamente de lejos... 😱",
+          "likes": 5,
+          "publishedAt": "2026-08-05T23:03:57"
+        },
+        {
+          "author": "Giulia",
+          "handle": "@giulia_art",
+          "text": "¡Tal vez te esté siguiendo porque no estás vestido apropiadamente para la época!",
+          "likes": 9,
+          "publishedAt": "2026-08-06T02:03:57"
+        },
+        {
+          "author": "Davide",
+          "handle": "@aurora_polare",
+          "text": "Demasiado bien vestido para ser un simple transeúnte. ¡En mi opinión tiene que ver con los viajes!",
+          "likes": 5,
+          "publishedAt": "2026-08-06T04:03:57"
+        }
+      ],
+      "searchZones": [
+        {
+          "id": "z1",
+          "name": "Objetivo",
+          "comment": "PERO que cara tan bonita",
+          "label": "en mi opinion era el",
+          "reply": "Volvamos y veamos...",
+          "to": "Vista_Piazza_2",
+          "x": 0.38741721854304656,
+          "y": 0.38587196467991175,
+          "w": 0.2825607064017659,
+          "h": 0.1977924944812362
+        },
+        {
+          "id": "z2",
+          "name": "Manos",
+          "comment": "Manos comunes de 1850",
+          "label": "Pero que manos tan grandes tienes....",
+          "reply": "... ¡para abofetearte mejor!",
+          "x": 0.18269230769230754,
+          "y": 0.8336538461538463,
+          "w": 0.17067307692307715,
+          "h": 0.1384615384615383,
+          "isDistractor": true
+        },
+        {
+          "id": "z3",
+          "name": "Luz",
+          "comment": "Una luz preciosa y perfectamente renderizada.",
+          "x": 0.4158653846153845,
+          "y": 0.025961538461538487,
+          "w": 0.11057692307692296,
+          "h": 0.0826923076923077,
+          "isDistractor": true
+        }
+      ],
+      "imageScale": 3.4000000000000004,
+      "imageOffsetX": -68.2763619742825,
+      "imageOffsetY": 145.64156813521262
+    }
+  ]
+}

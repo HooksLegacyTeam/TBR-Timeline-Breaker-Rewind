@@ -1,0 +1,570 @@
+{
+  "id": "credits",
+  "name": "Credits",
+  "handle": "@Credits",
+  "bio": "Wenige, aber gute ... um die Welt vor wildem Scrollen zu bewahren",
+  "adventureTitle": "Die Drecksarbeit...jemand muss sie machen",
+  "avatar": "Gemini_Generated_Image_96et1n96et1n96et.webp",
+  "posts": [
+    {
+      "id": "p001",
+      "image": "Gemini_Generated_Image_96et1n96et1n96et.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-21T12:23:59",
+      "caption": "Auch wenn es Ihnen nicht gefällt ... wir müssen jemandem Anerkennung zollen ...",
+      "hashtags": [
+        "#DieWahrheit",
+        "#Gruppengeheimnisse",
+        "#SpitTheToad",
+        "#ResaDeiConti"
+      ],
+      "comments": [
+        {
+          "author": "Marco Vanni",
+          "handle": "@marco_v",
+          "text": "Aber Ehre gebührt denen, die sich entschuldigen?? Ich verstehe deine mysteriösen Beiträge nie 😂",
+          "likes": 12,
+          "publishedAt": "2026-08-21T13:26:59"
+        },
+        {
+          "author": "Luca Santini",
+          "handle": "@lucas_99",
+          "text": "Hier beginnt es mit dem üblichen Drama... spuck es aus!",
+          "likes": 4,
+          "publishedAt": "2026-08-21T13:39:59"
+        },
+        {
+          "author": "Chiara B.",
+          "handle": "@chiara_b",
+          "text": "Ich muss niemandem Anerkennung zollen, sie haben das Chaos ganz alleine angerichtet.",
+          "likes": 15,
+          "publishedAt": "2026-08-21T13:48:59"
+        },
+        {
+          "author": "Federico P.",
+          "handle": "@fede_p",
+          "text": "Es kommt darauf an, von wem wir reden. Wenn es das ist, WER ICH DENKE, dann nicht einmal tot.",
+          "likes": 6,
+          "publishedAt": "2026-08-21T13:59:59"
+        },
+        {
+          "author": "Giorgio K.",
+          "handle": "@giorgio_k",
+          "text": "Ich stimme zu 100 % zu, die Wahrheit muss früher oder später ans Licht kommen.",
+          "likes": 2,
+          "publishedAt": "2026-08-21T14:12:59"
+        },
+        {
+          "author": "Valentina D.",
+          "handle": "@vale_dark",
+          "text": "Leute, von welcher Gruppe redet ihr? Habe ich etwas verpasst??",
+          "likes": 9,
+          "publishedAt": "2026-08-21T14:28:59"
+        },
+        {
+          "author": "Samuele Rossi",
+          "handle": "@samu_rossi",
+          "text": "Tatsächlich geben wir Cäsar, was Cäsar gehört ... auch wenn es weh tut.",
+          "likes": 5,
+          "publishedAt": "2026-08-21T14:45:59"
+        },
+        {
+          "author": "Giulia M.",
+          "handle": "@giulia_m",
+          "text": "Bringen Sie jetzt bitte keine alten Geschichten zur Sprache 🤦‍♂️",
+          "likes": 11,
+          "publishedAt": "2026-08-21T15:03:59"
+        },
+        {
+          "author": "Stefano T.",
+          "handle": "@stefano_t",
+          "text": "Kredit für was? Schauen Sie, wir haben alle gesehen, wie die Dinge gelaufen sind.",
+          "likes": 20,
+          "publishedAt": "2026-08-21T15:23:59"
+        },
+        {
+          "author": "Davide Conti",
+          "handle": "@dave_conti",
+          "text": "Ich warte auf den nächsten Beitrag mit Popcorn 🍿🍿",
+          "likes": 5,
+          "publishedAt": "2026-08-21T16:31:59"
+        },
+        {
+          "author": "Marta S.",
+          "handle": "@marta_s99",
+          "text": "Ma ancora a parlare di questa storia? Voltiamo pagina!",
+          "likes": 8,
+          "publishedAt": "2026-08-21T16:37:59"
+        },
+        {
+          "author": "Francesca B.",
+          "handle": "@franci_b",
+          "text": "Mamma mia la pesantezza di prima mattina 😴",
+          "likes": 4,
+          "publishedAt": "2026-08-21T16:56:59"
+        },
+        {
+          "author": "Alice Villa",
+          "handle": "@ali_villa",
+          "text": "Ognuno si prenda le proprie responsabilità una volta tanto.",
+          "likes": 18,
+          "publishedAt": "2026-08-21T17:24:59"
+        }
+      ],
+      "likeGoesTo": "p002"
+    },
+    {
+      "id": "p002",
+      "image": "Gemini_Generated_Image_cgpveecgpveecgpv.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-21T12:47:59",
+      "caption": "Ich bin Daniel, Schöpfer, Entwickler und Kopf hinter diesem brillanten Projekt!\nUnd du bist niemand!",
+      "hashtags": [
+        "#TimelineBreaker",
+        "#ViaggiNelTempo",
+        "#IndieDev",
+        "#ProgettoSegreto"
+      ],
+      "views": 14018,
+      "likes": 2898,
+      "comments": [
+        {
+          "author": "Marco B.",
+          "handle": "@marco_b99",
+          "text": "Sogar brillant? Ein bisschen Bescheidenheit, oder haha? Wie neugierig!",
+          "likes": 12,
+          "publishedAt": "2026-08-21T13:51:59"
+        },
+        {
+          "author": "Elena Rossi",
+          "handle": "@ele_rossi",
+          "text": "Moment, welche Zeitreise?? Erkläre es besser!!",
+          "likes": 25,
+          "publishedAt": "2026-08-21T13:57:59"
+        },
+        {
+          "author": "Luca T.",
+          "handle": "@luca_tech",
+          "text": "Hallo Daniel! Aber von welchem ​​Projekt reden Sie genau?",
+          "likes": 8,
+          "publishedAt": "2026-08-21T14:03:59"
+        },
+        {
+          "author": "Giulia",
+          "handle": "@giulix_00",
+          "text": "Die übliche Eigenwerbung... mal sehen, ob es sich lohnt.",
+          "likes": 4,
+          "publishedAt": "2026-08-21T14:12:59"
+        },
+        {
+          "author": "Sandro",
+          "handle": "@san_dro",
+          "text": "Die #timetravel-Tags haben mich sehr fasziniert, erzähl mir mehr!",
+          "likes": 19,
+          "publishedAt": "2026-08-21T14:22:59"
+        },
+        {
+          "author": "Matteo V.",
+          "handle": "@matteo_dev",
+          "text": "Brillanter Geist? Hoffen wir, dass der Code dann funktioniert 😂",
+          "likes": 31,
+          "publishedAt": "2026-08-21T14:34:59"
+        },
+        {
+          "author": "Sara M.",
+          "handle": "@sara_m_art",
+          "text": "Und ich bin derjenige, der immer noch versucht herauszufinden, was hier los ist 👀",
+          "likes": 15,
+          "publishedAt": "2026-08-21T14:49:59"
+        },
+        {
+          "author": "Davide",
+          "handle": "@dave_09",
+          "text": "Ok Daniel, die Prämisse ist vielversprechend. Was ist der nächste Schritt?",
+          "likes": 7,
+          "publishedAt": "2026-08-21T15:05:59"
+        },
+        {
+          "author": "Chiara",
+          "handle": "@chiarissima",
+          "text": "Aber bist du allein oder steckt ein Team dahinter? Wie auch immer, es rockt!",
+          "likes": 11,
+          "publishedAt": "2026-08-21T15:25:59"
+        },
+        {
+          "author": "Federico",
+          "handle": "@fede_future",
+          "text": "Ist die Zukunft jetzt? Ich habe zu viele Fragen 🤯",
+          "likes": 22,
+          "publishedAt": "2026-08-21T15:45:59"
+        },
+        {
+          "author": "Sara V.",
+          "handle": "@sara_v",
+          "text": "Mente geniale? Voliamo bassi eh! Però ammetto che mi hai incuriosito 👀",
+          "likes": 12,
+          "publishedAt": "2026-08-21T16:49:59"
+        },
+        {
+          "author": "Alessio",
+          "handle": "@alessio_code",
+          "text": "Un altro indie dev che promette i viaggi nel tempo... vediamo che tiri fuori!",
+          "likes": 5,
+          "publishedAt": "2026-08-21T16:53:59"
+        },
+        {
+          "author": "Martina F.",
+          "handle": "@martina_f",
+          "text": "Comunque l'hype lo sai creare benissimo Daniel 🔥",
+          "likes": 19,
+          "publishedAt": "2026-08-21T16:59:59"
+        },
+        {
+          "author": "Paolo",
+          "handle": "@paoletto89",
+          "text": "Se riesci davvero a farmi viaggiare nel tempo ti do tutti i miei risparmi 😂",
+          "likes": 31,
+          "publishedAt": "2026-08-21T17:09:59"
+        },
+        {
+          "author": "Giorgio",
+          "handle": "@giorgio_tech",
+          "text": "Spero non sia la solita trovata di marketing... rimango in attesa.",
+          "likes": 4,
+          "publishedAt": "2026-08-21T17:32:59"
+        },
+        {
+          "author": "Valentina",
+          "handle": "@vale_russo",
+          "text": "Ciao Daniel! Ma quindi quanti siete nel team alla fine?",
+          "likes": 7,
+          "publishedAt": "2026-08-21T17:46:59"
+        },
+        {
+          "author": "Mirko",
+          "handle": "@mirketto_00",
+          "text": "Se serve un beta tester io sono già pronto col casco!",
+          "likes": 22,
+          "publishedAt": "2026-08-21T18:23:59"
+        }
+      ],
+      "likeGoesTo": "p003"
+    },
+    {
+      "id": "p003",
+      "image": "Gemini_Generated_Image_hs8xsuhs8xsuhs8x.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-21T14:34:59",
+      "caption": "Ich bin Jonny, Spieletester! Ob es dir gefällt oder nicht...",
+      "hashtags": [
+        "#GameTester",
+        "#VitaDaTester",
+        "#TimelineBreaker",
+        "#GamingCommunity"
+      ],
+      "views": 7918,
+      "likes": 1082,
+      "comments": [
+        {
+          "author": "Marco B.",
+          "handle": "@marcob_89",
+          "text": "Noch einer, der es ruhig angeht... Aber wie viele von euch sind in diesem Team? 😂",
+          "likes": 12,
+          "publishedAt": "2026-08-21T15:36:59"
+        },
+        {
+          "author": "Elena V.",
+          "handle": "@elena_vamp",
+          "text": "Spieletester und du denkst schon, du bist der König der Welt? Wir haben einen tollen Start hingelegt...",
+          "likes": 8,
+          "publishedAt": "2026-08-21T15:42:59"
+        },
+        {
+          "author": "Luca Gamer",
+          "handle": "@lucagamer99",
+          "text": "Jonny, aber hast du wenigstens ein paar Bugs gefunden oder redest du nur?",
+          "likes": 24,
+          "publishedAt": "2026-08-21T15:48:59"
+        },
+        {
+          "author": "Sofy_G",
+          "handle": "@sofy_gold",
+          "text": "Zuerst Daniel, jetzt du, aber gibt es jemanden, der bescheiden an diesem Projekt beteiligt ist? 💀",
+          "likes": 45,
+          "publishedAt": "2026-08-21T15:58:59"
+        },
+        {
+          "author": "Davide",
+          "handle": "@dave_the_beast",
+          "text": "Aber wann erscheint das Spiel, anstatt auf IG für Aufsehen zu sorgen??",
+          "likes": 19,
+          "publishedAt": "2026-08-21T16:08:59"
+        },
+        {
+          "author": "Chiara M.",
+          "handle": "@chiaramaria",
+          "text": "Tester zu sein ist jedoch dein Traumberuf, ich beneide dich sehr!",
+          "likes": 5,
+          "publishedAt": "2026-08-21T16:20:59"
+        },
+        {
+          "author": "GamerAnonimo",
+          "handle": "@anon_player",
+          "text": "Ok Jonny, ich möchte, dass du nur siehst, wo diese Geschichte endet 🙄",
+          "likes": 3,
+          "publishedAt": "2026-08-21T16:36:59"
+        },
+        {
+          "author": "FraTek",
+          "handle": "@fratek_tech",
+          "text": "Ich hoffe, das Spiel ist besser als eure Sympathie, Leute 🚀",
+          "likes": 31,
+          "publishedAt": "2026-08-21T16:53:59"
+        },
+        {
+          "author": "Silvia",
+          "handle": "@silvia_timeline",
+          "text": "Ein anderer Charakter! Aber was ist mit dieser Zeitleiste los?",
+          "likes": 15,
+          "publishedAt": "2026-08-21T17:13:59"
+        },
+        {
+          "author": "Matteo",
+          "handle": "@matteo_nerd",
+          "text": "Gefällt mir! Aber jetzt zeigen Sie uns etwas echtes Gameplay!",
+          "likes": 7,
+          "publishedAt": "2026-08-21T17:33:59"
+        },
+        {
+          "author": "Sandro K.",
+          "handle": "@sandro_k",
+          "text": "Ma siete tutti così arroganti nel team o vi allenate la sera? 😂",
+          "likes": 12,
+          "publishedAt": "2026-08-21T18:35:59"
+        },
+        {
+          "author": "Giulia R.",
+          "handle": "@giulia_red",
+          "text": "Bello fare il tester, ma trovali i bug invece di fare le pose!",
+          "likes": 5,
+          "publishedAt": "2026-08-21T18:40:59"
+        },
+        {
+          "author": "Pietro Dev",
+          "handle": "@pietro_code",
+          "text": "Daniel sviluppa e tu testi... ma il terzo chi è? Il grafico?",
+          "likes": 24,
+          "publishedAt": "2026-08-21T18:47:59"
+        },
+        {
+          "author": "Vale_99",
+          "handle": "@valevibes",
+          "text": "Jonny tranquillo, il like te lo metto ma pretendo zero crash! 🙏",
+          "likes": 8,
+          "publishedAt": "2026-08-21T18:57:59"
+        },
+        {
+          "author": "Leo Pixel",
+          "handle": "@leopixel",
+          "text": "Ma quale like! Mettiti al lavoro che vogliamo provare la beta!",
+          "likes": 15,
+          "publishedAt": "2026-08-21T19:09:59"
+        },
+        {
+          "author": "Martina S.",
+          "handle": "@martis",
+          "text": "Spero che almeno tu sia più simpatico di Daniel 💀",
+          "likes": 31,
+          "publishedAt": "2026-08-21T19:23:59"
+        },
+        {
+          "author": "Riki_Gamer",
+          "handle": "@rikigaming",
+          "text": "Game tester? Praticamente pagato per giocare, beato te...",
+          "likes": 7,
+          "publishedAt": "2026-08-21T19:39:59"
+        },
+        {
+          "author": "Camilla B.",
+          "handle": "@cami_b",
+          "text": "Un altro ego gigante. Ma è un requisito per lavorare lì?",
+          "likes": 19,
+          "publishedAt": "2026-08-21T19:55:59"
+        },
+        {
+          "author": "Simone T.",
+          "handle": "@simot_98",
+          "text": "E due! Manca ancora l'ultimo del gruppo allora, vediamo chi è...",
+          "likes": 10,
+          "publishedAt": "2026-08-21T20:15:59"
+        },
+        {
+          "author": "Fede_X",
+          "handle": "@fedex_play",
+          "text": "Like messo solo per scoprire cosa succede ora con la story 🙄",
+          "likes": 4,
+          "publishedAt": "2026-08-21T20:36:59"
+        }
+      ],
+      "likeGoesTo": "p004"
+    },
+    {
+      "id": "p004",
+      "image": "Gemini_Generated_Image_aege0naege0naege.webp",
+      "ratio": "4:5",
+      "publishedAt": "2026-08-21T15:54:59",
+      "caption": "Ich bin Fabio der Nerdaro, ein professioneller Tester\nEs gibt niemanden wie mich, beweg dich!",
+      "hashtags": [
+        "#Nerdaro",
+        "#TesterProfessionista",
+        "#BugHunter",
+        "#ChallengeAccepted"
+      ],
+      "views": 14757,
+      "likes": 2187,
+      "comments": [
+        {
+          "author": "Luca",
+          "handle": "@luca_gaming",
+          "text": "Ein anderer Tester? Aber wie viele von euch sind in diesem Chat? 😂",
+          "likes": 14,
+          "publishedAt": "2026-08-21T16:56:59"
+        },
+        {
+          "author": "Sara",
+          "handle": "@sara_nerd",
+          "text": "Jonny gegen Fabio, jetzt wird die Herausforderung interessant.",
+          "likes": 8,
+          "publishedAt": "2026-08-21T17:00:59"
+        },
+        {
+          "author": "Marco",
+          "handle": "@marco_pixel",
+          "text": "Daniel liquidiert euch beide in drei Sekunden, Leute 💀",
+          "likes": 5,
+          "publishedAt": "2026-08-21T17:07:59"
+        },
+        {
+          "author": "Elena",
+          "handle": "@elena_v",
+          "text": "Toller Fabio! Zeigen Sie ihm, wer der wahre Profi ist 💪",
+          "likes": 19,
+          "publishedAt": "2026-08-21T17:17:59"
+        },
+        {
+          "author": "Davide",
+          "handle": "@retro_dave",
+          "text": "Bewegen Sie sich, wenn überhaupt, Jonny war zuerst da!",
+          "likes": 3,
+          "publishedAt": "2026-08-21T17:28:59"
+        },
+        {
+          "author": "Giulia",
+          "handle": "@giulia_m",
+          "text": "Aber wer entwickelt dieses Spiel letztendlich wirklich? Hahaha",
+          "likes": 27,
+          "publishedAt": "2026-08-21T17:41:59"
+        },
+        {
+          "author": "Valentina",
+          "handle": "@vale_stream",
+          "text": "Professioneller Tester vs. egozentrischer Schöpfer: Kampf! 🥊",
+          "likes": 11,
+          "publishedAt": "2026-08-21T17:56:59"
+        },
+        {
+          "author": "Stefano",
+          "handle": "@geek_ste",
+          "text": "Nerdaro im Namen und in der Tat, ich vertraue nur dir, Fabio.",
+          "likes": 6,
+          "publishedAt": "2026-08-21T18:13:59"
+        },
+        {
+          "author": "Federico",
+          "handle": "@fede_bug",
+          "text": "Alle Tester und keine Fehler behoben, die gleiche alte Geschichte.",
+          "likes": 32,
+          "publishedAt": "2026-08-21T18:31:59"
+        },
+        {
+          "author": "Alessandro",
+          "handle": "@ale_boss",
+          "text": "Ich verstehe, Demut ist für dieses Team optional! 🤦‍♂️",
+          "likes": 15,
+          "publishedAt": "2026-08-21T18:52:59"
+        },
+        {
+          "author": "Matteo",
+          "handle": "@teo_nerd",
+          "text": "Pure Fabio adesso? Ma quanti tester avete arruolato? 😭",
+          "likes": 5,
+          "publishedAt": "2026-08-21T19:56:59"
+        },
+        {
+          "author": "Chiara",
+          "handle": "@chiarastyle",
+          "text": "Tra Daniel che se la tira e voi tester che litigate, non ci sto capendo più niente",
+          "likes": 4,
+          "publishedAt": "2026-08-21T20:01:59"
+        },
+        {
+          "author": "Simone",
+          "handle": "@simobug",
+          "text": "Grande Fabio, spacca tutto! Altro che Jonny 🚀",
+          "likes": 3,
+          "publishedAt": "2026-08-21T20:07:59"
+        },
+        {
+          "author": "Martina",
+          "handle": "@marti_99",
+          "text": "Ma quindi chi comanda davvero qui dentro? Spoiler: nessuno 😂",
+          "likes": 6,
+          "publishedAt": "2026-08-21T20:16:59"
+        },
+        {
+          "author": "Lorenzo",
+          "handle": "@lory_dev",
+          "text": "Tester professionista ma il codice chi lo scrive? Daniel da solo? Ahia",
+          "likes": 2,
+          "publishedAt": "2026-08-21T20:28:59"
+        },
+        {
+          "author": "Giorgia",
+          "handle": "@giorgiag",
+          "text": "Io sto con Jonny, mi sta troppo sulle scatole questo Fabio 💅",
+          "likes": 4,
+          "publishedAt": "2026-08-21T20:40:59"
+        },
+        {
+          "author": "Filippo",
+          "handle": "@filo_tech",
+          "text": "Che ego smisurato in questa chat, aiuto",
+          "likes": 3,
+          "publishedAt": "2026-08-21T20:55:59"
+        },
+        {
+          "author": "Beatrice",
+          "handle": "@beatrice_b",
+          "text": "Voglio vedere il primo gameplay serio invece di sti post flex",
+          "likes": 7,
+          "publishedAt": "2026-08-21T21:12:59"
+        },
+        {
+          "author": "Tommaso",
+          "handle": "@tommi_bug",
+          "text": "Nerdaro approvato, vedi di trovare i bug giusti però",
+          "likes": 2,
+          "publishedAt": "2026-08-21T21:30:59"
+        },
+        {
+          "author": "Alice",
+          "handle": "@alice_wonder",
+          "text": "Ormai questa chat è un circo e io ho comprato i pop corn 🍿",
+          "likes": 8,
+          "publishedAt": "2026-08-21T21:51:59"
+        }
+      ],
+      "likeGoesTo": "p001"
+    }
+  ]
+}
